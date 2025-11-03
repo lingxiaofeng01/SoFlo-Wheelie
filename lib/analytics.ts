@@ -9,10 +9,15 @@ type EventName =
   | 'game_load_success'
   | 'game_load_error'
   | 'game_retry'
+  | 'game_manual_load'
   | 'start_game'
   | 'share_click'
   | 'scroll_to_game'
-  | 'faq_expand';
+  | 'faq_expand'
+  | 'click_back_to_top'
+  | 'click_how_to_play'
+  | 'click_nav'
+  | 'dismiss_sticky_cta';
 
 interface EventProperties {
   device?: string;
