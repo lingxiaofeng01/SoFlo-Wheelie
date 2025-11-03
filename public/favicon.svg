@@ -1,0 +1,96 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient Circle -->
+  <circle cx="256" cy="256" r="256" fill="url(#bgGradient)"/>
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <!-- Background Gradient: Blue to Purple -->
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    
+    <!-- Bike Gradient: Light Blue to Cyan -->
+    <linearGradient id="bikeGradient" x1="150" y1="200" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    
+    <!-- Wheel Gradient -->
+    <radialGradient id="wheelGradient" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#f0f9ff"/>
+      <stop offset="70%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </radialGradient>
+    
+    <!-- Glow Effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Motion Lines (Speed Effect) -->
+  <g opacity="0.6">
+    <line x1="80" y1="180" x2="140" y2="180" stroke="#60a5fa" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+    <line x1="60" y1="220" x2="130" y2="220" stroke="#60a5fa" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+    <line x1="90" y1="260" x2="150" y2="260" stroke="#60a5fa" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
+  </g>
+  
+  <!-- Motorcycle Silhouette (Wheelie Position - Front Wheel Up) -->
+  <g filter="url(#glow)">
+    <!-- Rear Wheel -->
+    <circle cx="340" cy="360" r="45" fill="url(#wheelGradient)" stroke="#0c4a6e" stroke-width="4"/>
+    <circle cx="340" cy="360" r="30" fill="none" stroke="#0c4a6e" stroke-width="3"/>
+    <circle cx="340" cy="360" r="15" fill="#0c4a6e"/>
+    
+    <!-- Bike Frame (Angled for Wheelie) -->
+    <g transform="rotate(-25 340 360)">
+      <!-- Main Frame -->
+      <path d="M 340 360 L 300 300 L 280 280 L 260 300 L 240 320" 
+            stroke="url(#bikeGradient)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      
+      <!-- Seat -->
+      <ellipse cx="310" cy="310" rx="35" ry="15" fill="url(#bikeGradient)" stroke="#0c4a6e" stroke-width="3"/>
+      
+      <!-- Handlebar -->
+      <path d="M 240 320 L 220 310 M 240 320 L 230 335" 
+            stroke="url(#bikeGradient)" stroke-width="10" stroke-linecap="round"/>
+      
+      <!-- Front Fork -->
+      <path d="M 240 320 L 230 360" 
+            stroke="url(#bikeGradient)" stroke-width="10" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Front Wheel (Elevated - Wheelie Position) -->
+    <circle cx="245" cy="300" r="38" fill="url(#wheelGradient)" stroke="#0c4a6e" stroke-width="4"/>
+    <circle cx="245" cy="300" r="25" fill="none" stroke="#0c4a6e" stroke-width="3"/>
+    <circle cx="245" cy="300" r="12" fill="#0c4a6e"/>
+    
+    <!-- Rider Silhouette (Simplified) -->
+    <g transform="rotate(-25 340 360)">
+      <!-- Body -->
+      <ellipse cx="285" cy="280" rx="20" ry="35" fill="#1e293b" opacity="0.8"/>
+      <!-- Head with Helmet -->
+      <circle cx="280" cy="250" r="18" fill="#1e293b" opacity="0.9"/>
+      <path d="M 270 245 Q 280 235 290 245" fill="none" stroke="#60a5fa" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Accent Sparkles -->
+  <g opacity="0.8">
+    <circle cx="200" cy="200" r="4" fill="#fbbf24"/>
+    <circle cx="380" cy="240" r="3" fill="#fbbf24"/>
+    <circle cx="420" cy="300" r="5" fill="#fbbf24"/>
+    <circle cx="160" cy="280" r="3" fill="#fbbf24"/>
+  </g>
+  
+  <!-- "W" Letter Overlay (Subtle) -->
+  <text x="256" y="450" font-family="Arial, sans-serif" font-size="120" font-weight="900" 
+        fill="#ffffff" opacity="0.15" text-anchor="middle">W</text>
+</svg>
+
