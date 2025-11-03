@@ -5,28 +5,24 @@ export default function robots(): MetadataRoute.Robots {
 
   return {
     rules: [
-      // Allow all crawlers
-      {
-        userAgent: '*',
-        allow: '/',
-        disallow: ['/api/', '/_next/', '/admin/'],
-      },
-      // Specific rules for Googlebot
       {
         userAgent: 'Googlebot',
         allow: '/',
-        disallow: ['/api/', '/admin/'],
+        disallow: ['/api/', '/_next/'],
       },
-      // Allow Google Image indexing
       {
         userAgent: 'Googlebot-Image',
         allow: '/',
       },
-      // Specific rules for Bingbot
       {
         userAgent: 'Bingbot',
         allow: '/',
-        disallow: ['/api/', '/admin/'],
+        disallow: ['/api/', '/_next/'],
+      },
+      {
+        userAgent: '*',
+        allow: '/',
+        disallow: ['/api/', '/_next/'],
       },
     ],
     sitemap: `${baseUrl}/sitemap.xml`,
