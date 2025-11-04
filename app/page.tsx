@@ -12,6 +12,8 @@ import { StickyPlayButton } from '@/components/StickyPlayButton';
 import { BackToTop } from '@/components/BackToTop';
 import { BreadcrumbNav } from '@/components/BreadcrumbNav';
 import { Footer } from '@/components/Footer';
+import { ToolBar } from '@/components/ToolBar';
+import { BookmarkButton } from '@/components/BookmarkButton';
 import { Button } from '@/components/ui/button';
 import { trackEvent } from '@/lib/analytics';
 import { Maximize, Minimize, HelpCircle, X } from 'lucide-react';
@@ -128,6 +130,13 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
 
+      {/* Tool Bar */}
+      <ToolBar
+        games={content.games.list}
+        shareTitle="SoFlo Wheelie Life - Best Wheelie Games Online"
+        shareDescription="Play the best wheelie games online for free! Master motorcycle stunts and wheelies."
+      />
+
       {/* Sticky Play Button */}
       <StickyPlayButton />
 
@@ -204,6 +213,11 @@ export default function Home() {
                 <span className="text-yellow-400">⭐</span>
                 <span>50K+ Players</span>
               </div>
+            </div>
+
+            {/* Bookmark Button */}
+            <div className="flex justify-center mb-6">
+              <BookmarkButton variant="hero" />
             </div>
           </div>
 

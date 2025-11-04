@@ -62,27 +62,32 @@
     ]
   },
   "tips": {
-    "title": "Pro Tips for Mastering SoFlo Wheelie",
+    "title": "Pro Tips & Strategies",
+    "subtitle": "Master these techniques to become a wheelie champion",
     "list": [
       {
-        "title": "Start Small and Build Gradually",
-        "description": "Don't try to hold the longest wheelie on your first attempt. Begin with short wheelies, focusing on finding the balance point. As you become comfortable with the basic mechanics, gradually extend your wheelie duration. This progressive approach builds solid fundamentals and prevents frustration."
+        "title": "Find Your Balance Point",
+        "description": "The key to long wheelies is finding the sweet spot where your bike balances perfectly. This is typically around 45-60 degrees. Practice holding this angle by making micro-adjustments with the throttle (D key) and brake (A key)."
       },
       {
         "title": "Master Throttle Control",
-        "description": "The throttle is your primary tool for wheelie control. Learn to make small, precise adjustments rather than dramatic inputs. Smooth throttle application helps maintain balance and prevents sudden flips or drops. Practice feathering the throttle to find that sweet spot where the front wheel hovers at the perfect height."
+        "description": "Smooth, gradual throttle inputs are crucial. Avoid mashing the D key - instead, use short, controlled taps to maintain your wheelie. Think of it like a rhythm game where timing matters more than speed."
       },
       {
-        "title": "Understand Weight Distribution",
-        "description": "Your rider's position affects the motorcycle's balance. Pay attention to how different tricks shift weight and change the balance point. Understanding these dynamics will help you maintain control during complex maneuvers and recover from near-crashes."
+        "title": "Use Terrain to Your Advantage",
+        "description": "Slight uphill sections make it easier to initiate wheelies, while downhill areas require more brake control. Learn to read the road ahead and adjust your technique accordingly for maximum distance."
       },
       {
         "title": "Practice Different Bikes",
-        "description": "Each motorcycle in SoFlo Wheelie has unique handling characteristics. Spend time with different bikes to understand their strengths and weaknesses. Some bikes are more forgiving for beginners, while others offer higher performance for experienced players. Finding the right bike for your skill level and style is crucial for progression."
+        "description": "Each motorcycle in the game has unique handling characteristics. Lighter bikes are easier to control but less stable, while heavier bikes require more skill to lift but hold wheelies longer. Experiment with all options using the F key."
       },
       {
-        "title": "Learn from Mistakes",
-        "description": "Every crash is a learning opportunity. When you flip backward or drop the front wheel, think about what caused it. Was your throttle input too aggressive? Did you hold the wheelie too long? Analyzing your mistakes helps you avoid repeating them and accelerates your skill development."
+        "title": "Combine Tricks for Style Points",
+        "description": "Once you've mastered basic wheelies, start incorporating tricks using the WSER keys. Combining a seat stand (W) with a hand drag (E) while maintaining balance showcases true mastery and looks incredibly cool!"
+      },
+      {
+        "title": "Learn from Your Crashes",
+        "description": "Every crash teaches you something. Did you lean too far back? Too much throttle? Not enough brake? Analyze what went wrong and adjust your next attempt. The best players treat failures as learning opportunities."
       }
     ]
   },
@@ -125,19 +130,43 @@
     "basic": {
       "title": "Basic Controls",
       "keys": [
-        { "key": "D", "action": "Throttle / Accelerate" },
-        { "key": "A", "action": "Brake / Slow Down" },
-        { "key": "F", "action": "Change Bikes" },
-        { "key": "G", "action": "Change Helmets" }
+        {
+          "key": "D",
+          "action": "Throttle / Accelerate"
+        },
+        {
+          "key": "A",
+          "action": "Brake / Slow Down"
+        },
+        {
+          "key": "F",
+          "action": "Change Bikes"
+        },
+        {
+          "key": "G",
+          "action": "Change Helmets"
+        }
       ]
     },
     "tricks": {
       "title": "Trick Controls",
       "keys": [
-        { "key": "S", "action": "Knee Trick" },
-        { "key": "W", "action": "Seat Stand" },
-        { "key": "E", "action": "Hand Drag" },
-        { "key": "R", "action": "No Hands Stunt" }
+        {
+          "key": "S",
+          "action": "Knee Trick"
+        },
+        {
+          "key": "W",
+          "action": "Seat Stand"
+        },
+        {
+          "key": "E",
+          "action": "Hand Drag"
+        },
+        {
+          "key": "R",
+          "action": "No Hands Stunt"
+        }
       ]
     }
   },
@@ -174,36 +203,6 @@
         "author": "RetroGamer88",
         "rating": 5,
         "text": "SoFlo Wheelie Life reminds me of classic motorcycle games but with modern polish. The Scratch platform integration is seamless, and the gameplay is incredibly smooth. This is what browser gaming should be!"
-      }
-    ]
-  },
-  "tips": {
-    "title": "Pro Tips & Strategies",
-    "subtitle": "Master these techniques to become a wheelie champion",
-    "list": [
-      {
-        "title": "Find Your Balance Point",
-        "description": "The key to long wheelies is finding the sweet spot where your bike balances perfectly. This is typically around 45-60 degrees. Practice holding this angle by making micro-adjustments with the throttle (D key) and brake (A key)."
-      },
-      {
-        "title": "Master Throttle Control",
-        "description": "Smooth, gradual throttle inputs are crucial. Avoid mashing the D key - instead, use short, controlled taps to maintain your wheelie. Think of it like a rhythm game where timing matters more than speed."
-      },
-      {
-        "title": "Use Terrain to Your Advantage",
-        "description": "Slight uphill sections make it easier to initiate wheelies, while downhill areas require more brake control. Learn to read the road ahead and adjust your technique accordingly for maximum distance."
-      },
-      {
-        "title": "Practice Different Bikes",
-        "description": "Each motorcycle in the game has unique handling characteristics. Lighter bikes are easier to control but less stable, while heavier bikes require more skill to lift but hold wheelies longer. Experiment with all options using the F key."
-      },
-      {
-        "title": "Combine Tricks for Style Points",
-        "description": "Once you've mastered basic wheelies, start incorporating tricks using the WSER keys. Combining a seat stand (W) with a hand drag (E) while maintaining balance showcases true mastery and looks incredibly cool!"
-      },
-      {
-        "title": "Learn from Your Crashes",
-        "description": "Every crash teaches you something. Did you lean too far back? Too much throttle? Not enough brake? Analyze what went wrong and adjust your next attempt. The best players treat failures as learning opportunities."
       }
     ]
   },
@@ -280,7 +279,14 @@
         "thumbnail": "/wheelie-up-thumb.jpeg",
         "iframeUrl": "https://html5.gamedistribution.com/rvvASMiM/7b5ae703884049ac82d3caac0d28fc7f/index.html?gd_sdk_referrer_url=https%3A%2F%2F101games.io%2Fwheelie-up&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tLzdiNWFlNzAzODg0MDQ5YWM4MmQzY2FhYzBkMjhmYzdmLz9nZF9zZGtfcmVmZXJyZXJfdXJsPWh0dHBzOi8vMTAxZ2FtZXMuaW8vd2hlZWxpZS11cCIsInBhcmVudERvbWFpbiI6IjEwMWdhbWVzLmlvIiwidG9wRG9tYWluIjoiMTAxZ2FtZXMuaW8iLCJoYXNJbXByZXNzaW9uIjp0cnVlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE4In0%253D",
         "category": "Wheelie",
-        "tags": ["wheelie", "bicycle", "balance", "skill", "casual", "coins"],
+        "tags": [
+          "wheelie",
+          "bicycle",
+          "balance",
+          "skill",
+          "casual",
+          "coins"
+        ],
         "isNew": true,
         "fullDescription": {
           "intro": "Wheelie Up is a high-skill casual game that challenges players to master the art of balance while performing wheelies on a bicycle. The main objective is simple yet demanding: keep the front wheel of your bicycle lifted in the air for as long as possible while navigating through challenging terrain. When the front wheel touches the ground, the game ends. Along the way, collect coins to unlock new bike models and upgrades, making each run more exciting and rewarding. With its minimalist controls and addictive gameplay, Wheelie Up offers endless entertainment for players of all skill levels.",
@@ -351,7 +357,14 @@
         "thumbnail": "/wheelie-bike-thumb.jpeg",
         "iframeUrl": "https://html5.gamedistribution.com/rvvASMiM/790275cfc5c94f1da11d0aaa28599415/index.html?gd_sdk_referrer_url=https%3A%2F%2Fwww.1001games.com%2Fsport%2Fwheelie-bike&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy4xMDAxZ2FtZXMuY29tL3Nwb3J0L3doZWVsaWUtYmlrZSIsInBhcmVudERvbWFpbiI6IjEwMDFnYW1lcy5jb20iLCJ0b3BEb21haW4iOiIxMDAxZ2FtZXMuY29tIiwiaGFzSW1wcmVzc2lvbiI6ZmFsc2UsImxvYWRlckVuYWJsZWQiOnRydWUsImhvc3QiOiJodG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbSIsInZlcnNpb24iOiIxLjUuMTgifQ%253D%253D",
         "category": "Wheelie",
-        "tags": ["wheelie", "bike", "balance", "skill", "arcade", "funny"],
+        "tags": [
+          "wheelie",
+          "bike",
+          "balance",
+          "skill",
+          "arcade",
+          "funny"
+        ],
         "isNew": true,
         "fullDescription": {
           "intro": "Wheelie Bike is a funny and addictive skill game that challenges players to master the art of balancing on one wheel. In this exciting bike game, your objective is to perform a wheelie and roll down the road only on your back wheel for as long as possible. The moment your front wheel touches the ground, your run will end. If you lean back too far and fall, you'll also have to start over. It's a simple concept, but once you get the hang of it, it's incredibly addicting!",
@@ -420,7 +433,14 @@
         "thumbnail": "/street-wheelie-thumb.webp",
         "iframeUrl": "https://game.azgame.io/street-wheelie/",
         "category": "Wheelie",
-        "tags": ["wheelie", "street", "3D", "motorcycle", "stunts", "physics"],
+        "tags": [
+          "wheelie",
+          "street",
+          "3D",
+          "motorcycle",
+          "stunts",
+          "physics"
+        ],
         "isNew": true,
         "fullDescription": {
           "intro": "Street Wheelie is a 3D online wheelie game where players control a bike and perform wheelies and stunts across various maps. Featuring enhanced physics and immersive sound effects, the game provides a realistic riding experience and better wheelie control. More impressively, there is a wide selection of customizable and unlockable bikes and rider gear, such as helmets, gloves, and goggles. Gear up, dive into your favorite map, master your technique, and earn the best scores!",
@@ -456,6 +476,439 @@
             "Free-roam exploration mode in each environment",
             "Smooth controls optimized for both keyboard and touch devices"
           ]
+        }
+      },
+      {
+        "id": "wheelie-life-honda-odyssey",
+        "title": "Wheelie Life Honda Odyssey",
+        "slug": "wheelie-life-honda-odyssey",
+        "description": "Wheelie Life Honda Odyssey is a physics-driven vehicle stunt game where players perform jaw-dropping tricks in a minivan instead of a motorcycle. Experience the hilarious challenge of pulling off outrageous stunts in a family vehicle with realistic handling and absurd charm.",
+        "thumbnail": "https://g.wheelielife.net/wheelie-life-honda-odyssey.webp",
+        "iframeUrl": "https://scratch.mit.edu/projects/1091158109/embed",
+        "category": "Wheelie",
+        "tags": [
+          "wheelie",
+          "minivan",
+          "physics",
+          "scratch",
+          "stunts",
+          "honda",
+          "vehicle"
+        ],
+        "isNew": true,
+        "fullDescription": {
+          "intro": "Wheelie Life Honda Odyssey is a physics-driven vehicle stunt game where players perform jaw-dropping tricks in a minivan instead of a motorcycle. If you've ever wondered what it would be like to pull off outrageous stunts in a family minivan, then Wheelie Life Honda Odyssey offers the perfect opportunity. This online vehicle game spins the tires on traditional motorcycle stunt gameplay by replacing the typical two-wheeler with the hefty and humorously out-of-place Honda Odyssey. By doing so, it creates an entirely new challenge and tone: one that is grounded in realism yet filled to the brim with absurd charm.",
+          "gameplay": {
+            "title": "Wheelie Life Honda Odyssey Gameplay Overview",
+            "content": "This spinoff of the beloved stunt simulator Wheelie Life leans fully into the contradiction of using a 4,500-pound suburban hauler in extreme sports scenarios. Rather than relying on comic exaggerations or cartoon physics, the game presents a realistic handling model tailored to the minivan's cumbersome geometry. The result? A hilarious and genuinely fresh gameplay experience that turns everyday suburban life into a stunt show.\n\nThe core objective is straightforward yet challenging: perform and maintain wheelies with a Honda Odyssey minivan while navigating various environments. Unlike traditional motorcycle wheelie games, the minivan's weight, size, and center of gravity create unique physics challenges that require patience, precision, and a completely different approach to balance control.\n\nThe game features realistic weight distribution mechanics that accurately simulate how a heavy minivan behaves during stunts. When you accelerate, you'll feel the rear suspension compress and the front end lift - but controlling this massive vehicle requires finesse. Too much throttle and you'll flip backward spectacularly; too little and the front wheels crash down. Finding that perfect balance point with a minivan is what makes Wheelie Life Honda Odyssey so captivating and rewarding.\n\nPlayers can explore different environments including parking lots, suburban streets, and open areas, each offering unique surfaces and slopes that affect the minivan's behavior. The game rewards experimentation and skill development, encouraging players to master the art of minivan stunting through practice and persistence."
+          },
+          "howToPlay": {
+            "title": "Controls & Interface - Mastering the Minivan",
+            "content": "Mastering control in Wheelie Life Honda Odyssey requires precision, patience, and finesse. The controls are designed to give you full command over this unconventional stunt vehicle.",
+            "tips": [
+              {
+                "title": "Arrow Key Controls",
+                "description": "**Left Arrow** – Brake: Use this to slow down and control your balance when the minivan starts tipping too far back. Precise brake control is essential for maintaining long wheelies.\n\n**Right Arrow** – Throttle: Apply power to accelerate and lift the front wheels. The key is smooth, gradual inputs rather than sudden bursts of speed.\n\n**Down Arrow** – Execute a trick (if the minivan supports it): Add style to your runs with special maneuvers, though be careful as tricks can affect your balance.\n\n**Up Arrow** – Apply slower tilt adjustments for finer rotation control: This gives you precise control when you're at that critical balance point, allowing micro-adjustments that can mean the difference between success and failure.\n\n**M Key** – Open the main menu and access in-game settings: Pause the action, adjust settings, or restart your run from here."
+              },
+              {
+                "title": "Understanding Minivan Physics",
+                "description": "The Honda Odyssey handles completely differently from a motorcycle. Its high center of gravity, substantial weight, and long wheelbase create unique challenges. The minivan doesn't respond well to sudden inputs - every movement must be calculated and deliberate. Think of it like playing chess rather than a reflex game. Plan your throttle and brake inputs ahead of time, and make small adjustments rather than dramatic corrections."
+              },
+              {
+                "title": "Finding the Balance Point",
+                "description": "Unlike motorcycles that balance at steep angles, the Odyssey's balance point is more subtle and harder to find. You'll need to develop a feel for that sweet spot where the minivan hovers effortlessly on its rear wheels. This typically requires constant micro-management of throttle and brake, creating a rhythm that becomes almost meditative once mastered. Practice in open areas first before attempting more challenging terrain."
+              },
+              {
+                "title": "Environmental Awareness",
+                "description": "Each environment in the game offers unique surfaces and slopes that dramatically affect the minivan's behavior. Smooth parking lot asphalt provides predictable traction, while sloped surfaces require constant balance adjustments. Learn to read the terrain ahead and prepare your inputs accordingly. Uphill sections make wheelies easier to initiate but harder to maintain, while downhill areas require more brake control to prevent over-rotation."
+              }
+            ]
+          },
+          "features": [
+            "Realistic physics engine specifically tuned for minivan dynamics and weight distribution",
+            "Unique gameplay that transforms a family vehicle into a stunt machine",
+            "Multiple environments including parking lots, suburban streets, and open areas",
+            "Challenging balance mechanics that reward skill development and patience",
+            "Smooth Scratch-based implementation that runs flawlessly in modern browsers",
+            "Hilarious premise that combines realistic physics with absurd charm",
+            "Progressive difficulty that encourages experimentation and mastery",
+            "No downloads or installations required - play instantly in your browser",
+            "Responsive controls optimized for keyboard input with precise timing",
+            "Community challenges and opportunities to share your best minivan stunts"
+          ],
+          "whyPlay": {
+            "title": "What Makes Wheelie Life Honda Odyssey Stand Out?",
+            "content": "Wheelie Life Honda Odyssey distinguishes itself through its brilliant subversion of expectations. While most stunt games feature sleek motorcycles or sports cars, this game asks: what if we used a minivan? The answer is a uniquely entertaining experience that's both challenging and hilarious.\n\nThe game's commitment to realistic physics makes the absurd premise even more engaging. The Honda Odyssey handles like you'd expect a 4,500-pound family hauler to handle - which is to say, not at all like a motorcycle. This creates genuine challenge and forces players to completely rethink their approach to wheelie mechanics.\n\nThe humor is subtle but pervasive. There's something inherently funny about performing extreme stunts in a vehicle designed for soccer practice carpools. Yet the game never becomes a parody - it takes the physics seriously, which makes the comedy land even better. You're not laughing at the game; you're laughing with it as you attempt increasingly ridiculous maneuvers.\n\nThe skill ceiling is surprisingly high. Mastering the Odyssey's quirks takes real dedication, and the satisfaction of pulling off a perfect wheelie in this unlikely vehicle is immense. The game rewards patience and precision, creating a meditative flow state similar to other skill-based games but with a unique flavor all its own.\n\nAccessibility is another strong point. Like other Wheelie Life games, it runs instantly in your browser with no downloads or installations. You can jump in for a quick session or dedicate hours to perfecting your technique. The Scratch platform integration ensures smooth performance across different devices and browsers."
+          },
+          "tips": {
+            "title": "Pro Strategies for Minivan Mastery",
+            "items": [
+              "Ease into throttle inputs instead of maxing out - the minivan tips forward easily at higher speeds",
+              "Balance before power: Focus on positioning the minivan into a stable upright wheelie before accelerating",
+              "Use small angles: The Odyssey doesn't respond well to sudden inputs - plan your movements like a chess game",
+              "Practice 'dead stop wheelies' in wide-open parking lots where momentum isn't dragging you into obstacles",
+              "Mind the environment: Each arena offers unique surfaces and slopes - learn how they affect your van's behavior",
+              "Develop a consistent rhythm between throttle and brake rather than making random adjustments",
+              "Don't panic when you start tipping backward - a gentle brake tap is usually enough to recover",
+              "Study the minivan's weight transfer during acceleration and braking to predict its behavior",
+              "Start each session with gentle practice runs to warm up your muscle memory",
+              "Learn from your crashes - analyze what went wrong and adjust your technique accordingly"
+            ]
+          },
+          "faq": [
+            {
+              "question": "Can I perform traditional motorcycle tricks in the game?",
+              "answer": "The minivan cannot perform all traditional tricks seen in Wheelie Life, but certain trick maneuvers are available depending on your setup. The Down Arrow key triggers available tricks, though the minivan's size and weight limit what's physically possible. The focus is more on maintaining wheelies and mastering the unique physics rather than complex trick combinations."
+            },
+            {
+              "question": "Is customization purely cosmetic?",
+              "answer": "Primarily yes, however, some visual upgrades might affect aerodynamics and weight distribution in slight ways. The core challenge remains mastering the Honda Odyssey's unique handling characteristics, but subtle variations can provide slightly different experiences."
+            },
+            {
+              "question": "Does the game support multiplayer?",
+              "answer": "Wheelie Life Honda Odyssey is a single-player experience, though community challenges offer competitive replay value. You can share your best runs and distances with friends, and the Scratch platform allows you to view and compare performances with other players."
+            },
+            {
+              "question": "Is the gameplay beginner-friendly?",
+              "answer": "While the controls are accessible and easy to understand, mastering the Odyssey's quirks takes time and practice. The game is designed to be approachable for newcomers while offering depth for dedicated players. Start with simple wheelies in open areas and gradually progress to more challenging maneuvers as your skills develop. It's both challenging and rewarding."
+            },
+            {
+              "question": "What makes this different from regular Wheelie Life?",
+              "answer": "The fundamental difference is the vehicle - replacing a motorcycle with a minivan completely changes the physics and strategy. The Honda Odyssey's weight, size, and center of gravity create unique challenges that require a different approach to balance and control. It's a fresh take on the wheelie formula that offers new challenges even for experienced Wheelie Life players."
+            },
+            {
+              "question": "Can I play on mobile devices?",
+              "answer": "While the game is technically accessible on mobile devices through the browser, it's optimized for keyboard controls on desktop or laptop computers. The precise inputs required for maintaining minivan wheelies work much better with keyboard arrow keys than touchscreen controls. For the best experience, we recommend playing on a computer with a physical keyboard."
+            }
+          ],
+          "developer": {
+            "title": "About Wheelie Life Honda Odyssey",
+            "content": "Wheelie Life Honda Odyssey is part of the popular Wheelie Life series created on the Scratch platform. This unique spinoff takes the core wheelie mechanics that players love and applies them to an unconventional vehicle - the Honda Odyssey minivan. The game demonstrates the versatility of the Wheelie Life physics engine while offering a fresh, humorous take on the stunt driving genre. It's a testament to creative game design that shows how changing a single element (the vehicle) can create an entirely new and engaging experience."
+          }
+        }
+      },
+      {
+        "id": "wheelie-life-2",
+        "title": "Wheelie Life 2",
+        "slug": "wheelie-life-2",
+        "description": "Wheelie Life 2 is the ultimate physics-based motorcycle wheelie simulator inspired by real SoFlo wheelie culture. Pull off the longest wheelies, master balance control, and unlock new bikes in this addictive Scratch game with over 15 million players worldwide.",
+        "thumbnail": "https://g.wheelielife.net/wheelie-life-2.webp",
+        "iframeUrl": "https://scratch.mit.edu/projects/871997314/embed",
+        "category": "Wheelie",
+        "tags": [
+          "wheelie",
+          "motorcycle",
+          "physics",
+          "scratch",
+          "stunts",
+          "balance",
+          "skill"
+        ],
+        "isNew": true,
+        "fullDescription": {
+          "intro": "Welcome to the high-octane world of Wheelie Life 2, the next-level sequel to one of the most beloved physics-based motorcycle simulators ever created. With over 15 million players worldwide in the franchise, Wheelie Life 2 delivers an authentic, heart-pounding wheelie experience inspired by real SoFlo wheelie culture. In this game, your mission is simple but challenging: pull off the longest and craziest wheelies to rack up your score and prove your skills. But take caution—failing to maintain a wheelie won't just slow you down; it'll actually drain your score. Every second counts, every movement matters, and only the most skillful players will rise to the top.",
+          "gameplay": {
+            "title": "Wheelie Life 2 Gameplay Mechanics",
+            "content": "Wheelie Life 2 is all about balance, timing, and precision. The primary goal is to perform extended wheelies while maneuvering your bike through dynamic terrain. Here's how the core gameplay works:\n\n**Do a Wheelie or Lose Points**: You gain score only while maintaining a wheelie. If both wheels touch the ground, you immediately start losing points. This creates constant tension and rewards sustained performance.\n\n**Avoid Crashing**: One false move and it's game over. You'll need to develop a feel for the controls to keep your front wheel airborne without toppling backward. The physics engine is unforgiving but fair—every crash is a learning opportunity.\n\n**Freestyle Options**: If your bike supports it, you can perform tricks while doing wheelies for extra flair. Note that the down arrow triggers tricks on certain bikes, adding style points and visual excitement to your runs.\n\n**Endless Play**: There is no level completion or finish line—instead, it's about maintaining your wheelie for as long as possible and breaking your own high score. This creates an addictive 'just one more try' gameplay loop that keeps players coming back.\n\nBy embracing real-world physics and minimalist rules, Wheelie Life 2 offers one of the most challenging yet rewarding gameplay loops in online motorcycle games. The game perfectly captures that delicate balance between accessibility and depth—easy to understand, incredibly difficult to master."
+          },
+          "howToPlay": {
+            "title": "Controls & Interface - Master Your Ride",
+            "content": "Successfully mastering Wheelie Life 2 is all about having tight control over your bike. The controls are intuitively mapped for optimal balance between accessibility and advanced maneuverability.",
+            "tips": [
+              {
+                "title": "Arrow Key Controls",
+                "description": "**Right Arrow Key (→)**: Throttle – propels the bike forward and lifts the front wheel. This is your primary tool for initiating and maintaining wheelies. Tap it rhythmically for best results rather than holding it down continuously.\n\n**Left Arrow Key (←)**: Brake – slows you down and helps with balance. Use this to prevent tipping too far backward. Mastering the interplay between throttle and brake is the key to long wheelies.\n\n**Up Arrow Key (↑)**: Slows down the rotational movement for better adjustment. This gives you finer control when you're at that critical balance point.\n\n**Down Arrow Key (↓)**: Perform a trick (only if your bike is capable). Add style to your runs with flashy stunts, but be careful—tricks can throw off your balance if not timed perfectly.\n\n**M Key**: Opens the main menu where you can adjust settings, change bikes, or restart your run."
+              },
+              {
+                "title": "Finding the Balance Point",
+                "description": "The secret to success in Wheelie Life 2 is discovering your bike's balance point—that sweet spot where the motorcycle hovers effortlessly on its rear wheel. This typically occurs at an angle between 11 and 12 o'clock on an imaginary clock face. When you find this point, you'll feel the bike stabilize, requiring only minimal throttle and brake adjustments to maintain. Practice makes perfect, and with time, you'll develop muscle memory for this critical angle."
+              },
+              {
+                "title": "Throttle Control Mastery",
+                "description": "Smooth, gradual throttle inputs are crucial for long wheelies. Avoid mashing the right arrow key—instead, use short, controlled taps to maintain your wheelie. Think of it like a rhythm game where timing matters more than speed. When your front wheel starts dropping, give a quick throttle burst. When you're leaning too far back, ease off and let momentum carry you forward. This constant micro-management creates a meditative flow state."
+              },
+              {
+                "title": "Bike Selection Strategy",
+                "description": "As you progress and achieve higher scores, you'll unlock new bikes with varied performance characteristics. Lighter bikes are easier to lift but less stable in the air. Heavier bikes require more skill to initiate wheelies but hold them longer once balanced. Sport bikes offer quick acceleration and responsive handling, while cruisers provide more stability for extended runs. Experiment with all options to find your perfect match."
+              }
+            ]
+          },
+          "features": [
+            "Authentic physics engine that simulates real motorcycle dynamics and weight distribution",
+            "Progressive bike unlocking system with multiple motorcycles featuring unique handling characteristics",
+            "Score-based gameplay that rewards sustained wheelie performance",
+            "Trick system for advanced players to add style and flair to their runs",
+            "Smooth Scratch-based HTML5 implementation that runs flawlessly in modern browsers",
+            "Instant restart feature for seamless retry experience after crashes",
+            "Responsive controls optimized for keyboard input with precise timing",
+            "Addictive gameplay loop that's easy to learn but incredibly challenging to master",
+            "No downloads or installations required—play instantly in your browser",
+            "Regular community challenges and leaderboard competitions"
+          ],
+          "whyPlay": {
+            "title": "What Makes Wheelie Life 2 Stand Out?",
+            "content": "Wheelie Life 2 distinguishes itself in the crowded motorcycle game genre through its laser focus on perfecting a single mechanic: the wheelie. While many games try to do everything, Wheelie Life 2 does one thing exceptionally well. The physics simulation is remarkably sophisticated, calculating weight distribution, momentum, and balance in real-time to create an authentic riding experience.\n\nThe game's scoring system creates natural tension and drama. Watching your score climb while maintaining a perfect wheelie is exhilarating, but seeing it drain when both wheels touch the ground adds stakes to every moment. This risk-reward dynamic keeps players engaged and invested in improving their skills.\n\nThe progression system strikes an excellent balance between immediate gratification and long-term goals. You can jump in for a quick 2-minute session and feel satisfied, or dedicate hours to unlocking all bikes and mastering advanced techniques. The game respects your time while rewarding dedication.\n\nCommunity engagement is another strong point. With over 15 million players in the franchise, there's a vibrant community sharing tips, celebrating achievements, and competing for high scores. The Scratch platform integration makes it easy to share your best runs and learn from top players.\n\nMost importantly, Wheelie Life 2 captures the pure joy of motorcycle stunting without the real-world risks. It's a safe, accessible way to experience the thrill of pulling off perfect wheelies, whether you're a motorcycle enthusiast or someone who's never touched a bike in real life."
+          },
+          "tips": {
+            "title": "Pro Strategies for Maximum Distance",
+            "items": [
+              "Start each run with a moderate throttle burst to establish your initial wheelie angle before fine-tuning",
+              "Develop a consistent rhythm between throttle taps and brake adjustments—consistency beats random inputs",
+              "Watch for terrain changes ahead and prepare your balance adjustments in advance",
+              "Don't panic when you start tipping backward—a gentle brake tap is usually enough to recover",
+              "Practice with different bikes to understand how weight and power affect wheelie dynamics",
+              "Focus on smooth, gradual inputs rather than sudden, dramatic movements",
+              "Learn from your crashes—analyze what went wrong and adjust your technique accordingly",
+              "Set incremental goals (e.g., 'beat my previous score by 100 points') rather than aiming for perfection immediately",
+              "Take short breaks if you're getting frustrated—fresh eyes often lead to better performance",
+              "Study top players' techniques by watching gameplay videos and community streams"
+            ]
+          },
+          "faq": [
+            {
+              "question": "Can I change bikes in Wheelie Life 2?",
+              "answer": "Yes! As you progress and achieve higher scores, you'll unlock new bikes with varied performance and looks. Each motorcycle has unique handling characteristics—some are lighter and more responsive, while others are heavier but more stable. Experiment with different bikes to find the one that matches your playing style. The bike selection adds significant replay value and allows you to tailor your experience."
+            },
+            {
+              "question": "What happens if I stop doing a wheelie?",
+              "answer": "If both wheels touch the ground, your score begins to rapidly decrease. This is one of the core mechanics that makes Wheelie Life 2 so challenging and engaging. You must maintain that wheelie continuously to keep your points climbing. The moment you lose your wheelie, you're racing against time to get it back up before your score drains completely. This creates constant tension and rewards sustained performance."
+            },
+            {
+              "question": "Are tricks mandatory in Wheelie Life 2?",
+              "answer": "No, performing tricks is completely optional. The core gameplay focuses on maintaining long wheelies, and you can achieve high scores without ever using tricks. However, tricks add style and excitement to your ride, especially with the right type of bike. Advanced players often incorporate tricks to showcase their mastery and add visual flair to their runs. They're a fun bonus feature rather than a requirement."
+            },
+            {
+              "question": "Do all bikes have trick capability?",
+              "answer": "No, only specific bikes can perform tricks. As you unlock different motorcycles, you'll discover which ones support the trick system. Try different rides to discover which ones can pull off stunts. This adds another layer of strategy to bike selection—do you choose a bike optimized for stability and long wheelies, or one that can perform flashy tricks?"
+            },
+            {
+              "question": "How do I improve my wheelie skills?",
+              "answer": "Improvement in Wheelie Life 2 comes through practice and understanding the physics. Start by focusing on finding your bike's balance point—that sweet spot where it hovers effortlessly. Practice smooth throttle control using short taps rather than holding the key down. Learn to read your bike's behavior and make tiny corrections before small wobbles become big problems. Watch your score as feedback—when it's climbing fastest, you're at the optimal angle. Most importantly, treat crashes as learning opportunities rather than failures."
+            },
+            {
+              "question": "Can I play Wheelie Life 2 on mobile devices?",
+              "answer": "While Wheelie Life 2 is technically accessible on mobile browsers through the Scratch platform, the game is optimized for keyboard controls and works best on desktop or laptop computers. The precise timing and control required for maintaining wheelies is much easier with keyboard arrow keys than touchscreen controls. For the best experience, we strongly recommend playing on a device with a physical keyboard."
+            },
+            {
+              "question": "Is Wheelie Life 2 free to play?",
+              "answer": "Yes! Wheelie Life 2 is completely free to play with no hidden costs, subscriptions, or paywalls. All bikes and features are unlockable through gameplay progression. Simply visit the game page and start playing instantly in your browser—no downloads, no account creation, no payment required. We believe great games should be accessible to everyone."
+            },
+            {
+              "question": "What makes Wheelie Life 2 different from the original Wheelie Life?",
+              "answer": "Wheelie Life 2 builds on the original's foundation with refined physics, improved bike variety, enhanced trick systems, and smoother gameplay. The scoring system has been rebalanced to create more tension and reward sustained performance. The bike unlocking progression provides better long-term goals. Overall, it's a more polished, feature-rich experience that maintains the addictive core gameplay while adding depth and variety."
+            }
+          ],
+          "developer": {
+            "title": "About the Game",
+            "content": "Wheelie Life 2 is created on the Scratch platform (Project ID: 871997314), making it accessible to players worldwide through any modern web browser. The game is part of the larger Wheelie Life franchise that has attracted over 15 million players globally. Built with HTML5 technology, it delivers smooth performance across different devices and operating systems without requiring downloads or installations. The game continues to receive community support and updates, ensuring a fresh experience for both new and returning players."
+          }
+        }
+      },
+      {
+        "id": "wheelie-life-scratch",
+        "title": "Wheelie Life Scratch",
+        "slug": "wheelie-life-scratch",
+        "description": "Wheelie Life Scratch is a creative motorcycle balance game (Project ID: 738305622) that proves simple design can still deliver deep, addictive gameplay. Built with HTML5 on Scratch, it spotlights endless wheelies through precise throttle and lean control.",
+        "thumbnail": "https://img.tools366.com/soflo-wheelie-life/gcf8124z.webp",
+        "iframeUrl": "https://scratch.mit.edu/projects/738305622/embed",
+        "category": "Wheelie",
+        "tags": [
+          "scratch",
+          "wheelie",
+          "motorcycle",
+          "balance",
+          "physics",
+          "browser-game",
+          "skill"
+        ],
+        "isNew": true,
+        "fullDescription": {
+          "intro": "Wheelie Life Scratch is a creative Scratch motorcycle balance game (Project ID: 738305622) that proves simple design can still deliver deep, addictive gameplay. Built with HTML5 on Scratch, it spotlights endless wheelies through precise throttle and lean control - no flashy distractions, just pure skill mastery. The responsive physics keep each attempt unique, rewarding patience and smooth corrections as you chase longer, cleaner runs. Running directly in modern browsers on desktop, mobile, or tablet, the game requires no downloads so you can refine your wheelie technique whenever inspiration hits.",
+          "gameplay": {
+            "title": "Wheelie Life Scratch Gameplay Overview",
+            "content": "Wheelie Life Scratch delivers a pure, focused motorcycle wheelie experience that strips away unnecessary complexity to highlight what matters most: balance, timing, and throttle control. Created by IceGamer08 on the Scratch platform, this game demonstrates that sophisticated gameplay doesn't require cutting-edge graphics or complex mechanics. Instead, it builds an addictive challenge around a single core concept executed with precision and care.\n\nThe fundamental objective is elegantly simple yet endlessly challenging: keep your motorcycle's front wheel in the air for as long as possible while maintaining perfect balance. This seemingly straightforward goal becomes increasingly demanding as you push for longer distances and higher scores. Every moment requires active engagement - there's no autopilot, no safe zone where you can relax. The physics engine constantly calculates your bike's angle, momentum, and weight distribution, demanding continuous micro-adjustments to prevent crashes.\n\nWhat makes Wheelie Life Scratch particularly engaging is how it transforms simple inputs into complex challenges. You control only two primary actions: throttle and brake. Yet these two inputs create an intricate dance of timing and precision. Too much throttle and you'll loop backward, crashing spectacularly. Too little and your front wheel drops, ending your run. The sweet spot exists in that narrow band between these extremes, and finding it requires developing an intuitive feel for the game's physics.\n\nThe game's scoring system reinforces this focus on sustained performance. Your score increases only while maintaining a clean wheelie, meaning every second counts. This creates natural tension between pushing for maximum distance and playing it safe. Do you risk a slightly more aggressive angle to maximize your score rate, or do you prioritize stability to ensure a longer run? These split-second decisions add strategic depth to what could otherwise be a purely mechanical challenge.\n\nThe Scratch platform integration proves surprisingly effective for this type of game. The HTML5 implementation runs smoothly across different devices and browsers, with responsive controls that register inputs instantly. There's no perceptible lag between pressing a key and seeing your bike respond, which is crucial for a game that demands such precise timing. The lightweight nature of Scratch projects means the game loads almost instantly, eliminating the frustration of lengthy loading screens that plague many modern browser games.\n\nOne of Wheelie Life Scratch's most appealing aspects is its accessibility. Because it runs entirely in your browser through the Scratch embed, you can start playing within seconds of discovering the game. There are no account requirements, no downloads, no installation processes, and no compatibility concerns. Whether you're on a high-end gaming PC or a modest laptop, the game delivers the same smooth experience. This instant accessibility makes it perfect for quick gaming sessions during breaks or extended practice sessions when you want to master advanced techniques.\n\nThe game's minimalist presentation actually enhances rather than detracts from the experience. Without flashy visual effects or complex UI elements competing for your attention, you can focus entirely on the core challenge. The clean interface displays only essential information: your current score and the bike's position. This clarity helps you enter a flow state where your attention narrows to the precise balance point, the throttle rhythm, and the subtle feedback from the physics engine.\n\nAs you spend more time with Wheelie Life Scratch, you'll discover layers of depth beneath the simple surface. The physics simulation responds to subtle variations in your input timing. Tapping the throttle in short bursts creates different results than holding it continuously. The bike's momentum carries through your corrections, meaning you must anticipate how current inputs will affect future balance. Learning to read these physics nuances and adjust your technique accordingly separates casual players from wheelie masters.\n\nThe game also rewards experimentation and adaptation. What works at low speeds may fail at higher velocities. Techniques that succeed on flat terrain require modification when encountering slopes or terrain changes. This variability ensures that even after hundreds of runs, you're still discovering new approaches and refining your skills. The learning curve never truly ends - there's always room to improve your personal best, perfect your technique, or develop more consistent performance."
+          },
+          "howToPlay": {
+            "title": "How to Play Wheelie Life Scratch: Simple Controls, Deep Challenge",
+            "content": "Wheelie Life Scratch uses a streamlined control scheme that anyone can learn in seconds, yet mastering these controls to achieve high scores requires dedication and practice. The game's genius lies in how it transforms simple inputs into complex, engaging gameplay.",
+            "tips": [
+              {
+                "title": "Master the Arrow Key Controls",
+                "description": "The game uses intuitive arrow key controls that are easy to learn but challenging to master. Press the Right Arrow (→) to throttle and accelerate, lifting your front wheel into the air. Use the Left Arrow (←) to brake and slow down, lowering your front wheel back toward the ground. The Down Arrow (↓) allows you to perform tricks if your bike supports them, adding style points to your runs. The Up Arrow (↑) provides slower rotation changes for fine-tuned balance adjustments. Finally, press M to enter the menu where you can adjust settings or restart your run. These simple controls create surprisingly deep gameplay because success depends not on which keys you press, but when and how long you press them."
+              },
+              {
+                "title": "Find and Maintain the Balance Point",
+                "description": "The key to long, successful wheelies is discovering your bike's balance point - that perfect angle where the motorcycle hovers effortlessly on its rear wheel without tipping forward or backward. This sweet spot typically exists when your bike is angled between 11 and 12 o'clock on an imaginary clock face. Finding this point requires experimentation and feel. Start by giving a moderate throttle burst to lift the front wheel, then make tiny adjustments with the brake and throttle to hold that position. When you find the balance point, you'll feel the bike stabilize, requiring only minimal corrections to maintain. Developing muscle memory for this angle is crucial for consistent high scores."
+              },
+              {
+                "title": "Develop Smooth Throttle Control",
+                "description": "Throttle control separates beginners from experts in Wheelie Life Scratch. Instead of mashing the right arrow continuously, learn to feather the throttle with short, controlled taps. Think of it as a rhythm game where timing matters more than force. When your front wheel starts dropping, give a quick throttle tap to lift it back up. When you're leaning too far back, ease off and let momentum carry you forward slightly. This constant micro-management creates a meditative flow state where you're continuously making tiny corrections. Smooth, gradual inputs always work better than sudden, dramatic movements. The physics engine rewards finesse over aggression."
+              },
+              {
+                "title": "Use Brake for Precision Corrections",
+                "description": "While throttle gets your wheel up, the brake is your precision tool for maintaining balance. When you feel yourself tipping too far backward, a quick brake tap brings the front wheel down just enough to recover without ending your wheelie. The key is using minimal brake pressure - you want to make the smallest correction necessary rather than overcorrecting and dropping the wheel completely. Advanced players develop a rhythm of alternating between throttle and brake, creating a constant balancing act that keeps the bike in that perfect sweet spot. Practice using the brake as a fine-tuning tool rather than an emergency stop."
+              },
+              {
+                "title": "Watch Your Score and Learn from Patterns",
+                "description": "Your score increases only while holding a clean wheelie, making it a perfect feedback mechanism for improvement. Pay attention to when your score climbs fastest - this indicates you're at an optimal angle and speed. When your score stalls or you crash, think about what caused it. Were you too aggressive with the throttle? Did you wait too long to brake? Did you overcorrect a small wobble? Analyzing these patterns helps you identify weaknesses in your technique and focus your practice on specific skills. Keep mental notes of your best runs and try to replicate the techniques that worked."
+              },
+              {
+                "title": "Practice Terrain Reading and Anticipation",
+                "description": "As you progress through longer runs, you'll encounter terrain variations that affect your bike's balance. Slight uphill sections make it easier to maintain wheelies but require throttle adjustments to prevent stalling. Downhill areas can cause your front wheel to drop unexpectedly if you don't compensate with extra throttle. Flat sections provide the most stable platform but can become monotonous, leading to attention lapses. Learn to read the terrain ahead and prepare your inputs before you reach challenging sections. Anticipation is often more important than reaction - by the time you notice a problem, it may be too late to correct it."
+              },
+              {
+                "title": "Embrace the Learning Curve",
+                "description": "Wheelie Life Scratch rewards patience and persistence. Your first attempts will likely end in quick crashes as you learn the physics and controls. This is completely normal and part of the learning process. Each crash teaches you something about the game's mechanics. Maybe you learned that holding throttle too long causes backflips. Perhaps you discovered that panic-braking drops your wheel instantly. These lessons accumulate over time, building an intuitive understanding of how the bike behaves. Don't get frustrated by early failures - instead, view each attempt as practice that brings you closer to mastery. The satisfaction of finally achieving a long, clean wheelie makes all the practice worthwhile."
+              },
+              {
+                "title": "Develop Your Personal Technique",
+                "description": "While general strategies help, every player eventually develops their own unique approach to Wheelie Life Scratch. Some players prefer aggressive throttle with frequent brake corrections. Others use gentle throttle taps with minimal braking. Some focus on maintaining a consistent angle, while others vary their approach based on terrain and momentum. Experiment with different techniques to find what feels natural for your playing style. The game's physics are consistent enough to support multiple valid approaches, so don't feel pressured to copy someone else's method. Your personal technique, refined through practice, will ultimately serve you better than trying to perfectly replicate someone else's style."
+              }
+            ]
+          },
+          "features": [
+            "Creative Scratch-based wheelie life game with HTML5 technology for smooth browser performance",
+            "Simple arrow key controls that create deep, engaging wheelie life challenges requiring precision and timing",
+            "Physics simulation that responds authentically to player inputs with realistic weight distribution and momentum",
+            "Score-based challenge system - keep doing wheelies to maintain and increase your score",
+            "Minimalist interface design - focus purely on wheelie life bike control without distracting UI elements",
+            "No visual distractions - all attention directed toward feeling the motorcycle balance in wheelie life",
+            "Meditative flow-state gameplay that rewards patience and smooth corrections for wheelie life mastery",
+            "Scratch Project 738305622 created by IceGamer08 with proven track record and community support",
+            "Continuous replay value with always room to improve personal bests in wheelie life performance",
+            "Deep satisfaction from mastering deceptively simple wheelie life skills through dedicated practice",
+            "Tests patience and precise control across extended wheelie life sessions",
+            "Browser-based on Scratch platform - play wheelie life anywhere without downloads or installation",
+            "No downloads required - instant access to wheelie life challenge within seconds of loading",
+            "Desktop, mobile, and tablet support for wheelie life gameplay across all your devices",
+            "Responsive physics engine that calculates balance in real-time for authentic motorcycle feel",
+            "Instant restart functionality for seamless practice sessions and quick retry after crashes"
+          ],
+          "whyPlay": {
+            "title": "What Makes Wheelie Life Scratch Special?",
+            "content": "Wheelie Life Scratch stands out in the crowded field of browser games by focusing on one core mechanic and executing it brilliantly. In an era where many games try to do everything, this game's laser focus on wheelie physics creates a uniquely satisfying experience. The simplicity is deceptive - beneath the straightforward premise lies a sophisticated physics simulation that rewards skill development and mastery.\n\nThe game's accessibility is another major strength. Running on the Scratch platform means it works on virtually any device with a modern browser. There are no system requirements to worry about, no compatibility issues to troubleshoot, and no storage space concerns. You can play on your work computer during lunch break, on your home laptop in the evening, or even on a tablet while traveling. This universal accessibility ensures you can practice and improve whenever inspiration strikes.\n\nWhat truly sets Wheelie Life Scratch apart is how it creates depth from simplicity. The two-button control scheme seems limiting at first, but it actually creates more engaging gameplay than complex control systems. Because you're not juggling multiple buttons or memorizing combo sequences, you can focus entirely on the nuanced physics and timing. This creates a pure skill-based challenge where improvement comes from developing better technique rather than memorizing button patterns.\n\nThe game also offers excellent value for time invested. Short sessions of 5-10 minutes provide satisfying gameplay experiences, making it perfect for quick breaks. Yet the game also supports extended practice sessions for players who want to chase high scores or perfect their technique. This flexibility means Wheelie Life Scratch fits into your schedule rather than demanding specific time commitments.\n\nPerhaps most importantly, Wheelie Life Scratch delivers that elusive quality that defines great games: the 'just one more try' factor. Each run is quick enough that restarting after a crash feels natural rather than frustrating. The clear cause-and-effect relationship between your inputs and results means you always understand why you crashed, which motivates you to try again with improved technique. This creates an addictive gameplay loop that can easily consume hours as you chase that perfect run.\n\nThe educational aspect shouldn't be overlooked either. While Wheelie Life Scratch is primarily entertainment, it also teaches valuable concepts about physics, balance, and momentum. Players develop an intuitive understanding of center of gravity, weight transfer, and how throttle input affects vehicle dynamics. These concepts have real-world applications and make the game more than just mindless entertainment. You're actually learning while having fun, which adds another layer of value to the experience."
+          },
+          "tips": {
+            "title": "Pro Strategies for Wheelie Life Scratch Mastery",
+            "items": [
+              "Start each session with a few practice runs to warm up your muscle memory and get a feel for the physics before attempting high-score runs",
+              "Focus on consistency over distance in early practice - aim to reliably hold 10-second wheelies before pushing for longer runs",
+              "Develop a personal rhythm for throttle taps - many top players use a consistent timing pattern rather than random inputs",
+              "Watch your bike's angle relative to vertical rather than just reacting to crashes - prevention is easier than correction",
+              "Take short breaks every 15-20 minutes to prevent fatigue from degrading your performance and leading to sloppy technique",
+              "Record your personal best scores and actively try to beat them rather than just playing aimlessly",
+              "Practice in different mental states - sometimes relaxed, casual play produces better results than intense concentration",
+              "Study your crashes to identify patterns - if you always crash the same way, you've found a specific skill to improve",
+              "Experiment with different throttle intensities to find what works best for your reaction time and playing style",
+              "Don't chase every high score attempt - sometimes accepting a good run and starting fresh produces better overall results",
+              "Use the menu (M key) to take strategic breaks during frustrating sessions rather than forcing continued play",
+              "Pay attention to your breathing - staying calm and breathing steadily helps maintain the focus needed for long runs",
+              "Challenge friends to beat your scores for added motivation and competitive drive",
+              "Celebrate small improvements - shaving even one second off your previous best represents real skill development",
+              "Remember that top players have invested hundreds of attempts to reach their level - patience and persistence are essential"
+            ]
+          },
+          "developer": {
+            "title": "About the Creator",
+            "content": "Wheelie Life Scratch (Project ID: 738305622) was created by IceGamer08, a talented Scratch developer known for creating engaging, physics-based games that prioritize gameplay over flashy graphics. The project demonstrates sophisticated understanding of game design principles, particularly how to create depth from simple mechanics. IceGamer08's approach of focusing on one core mechanic and perfecting it has resulted in a game that continues to attract players long after its initial release. The Scratch community has embraced Wheelie Life Scratch, with numerous remixes and variations building on the original framework, testament to the solid foundation IceGamer08 created."
+          }
+        }
+      },
+      {
+        "id": "wheelie-life-ggisaac24",
+        "title": "Wheelie Life ggIsaac24",
+        "slug": "wheelie-life-ggisaac24",
+        "description": "Wheelie Life ggIsaac24 is a 2024 Scratch remix that expands IceGamer08's Wheelie Life framework with fresh art, faster acceleration curves, and seven unlockable bikes. Master precise throttle control across Kawasaki, Honda, Yamaha, and Suzuki motorcycles in this popular community-driven stunt simulator.",
+        "thumbnail": "https://img.tools366.com/soflo-wheelie-life/sn6l9wzx.webp",
+        "iframeUrl": "https://scratch.mit.edu/projects/1014711432/embed",
+        "category": "Wheelie",
+        "tags": [
+          "scratch",
+          "wheelie",
+          "motorcycle",
+          "remix",
+          "balance",
+          "stunts",
+          "community"
+        ],
+        "isNew": true,
+        "fullDescription": {
+          "intro": "Wheelie Life ggIsaac24 is a 2024 Scratch remix that expands IceGamer08's Wheelie Life framework with fresh art, faster acceleration curves, and seven unlockable bikes. The project credits the original creator while redrawing every vehicle so riders can swap between sportbikes, dirt machines, and quad builds. Since its May 2024 release, this remix has recorded over 73,000 views and 70+ community remixes, making it one of the most popular Wheelie Life spin-offs hosted on Scratch. The game preserves the minimalist HUD—no timers or extra missions—so the focus stays on throttle finesse and mastering the perfect balance point.",
+          "gameplay": {
+            "title": "Wheelie Life ggIsaac24 Gameplay Overview",
+            "content": "Wheelie Life ggIsaac24 is a Scratch-based wheelie simulator that challenges players to master the art of motorcycle balance through precise throttle and brake control. The core objective is deceptively simple: keep your motorcycle's front wheel in the air for as long as possible while maintaining perfect balance. However, the remix's tightened physics and faster acceleration curves create a sharper learning curve than the base edition.\n\nThe game features seven distinct motorcycles, each with unique wheelbase lengths and weight distribution characteristics. The complete garage includes: Kawasaki KX250 (dirt bike agility), Honda CBR1000 (sportbike power), an unbranded minibike (beginner-friendly handling), the creator's custom My Signature 2000 (balanced performance), Yamaha Raptor 250 (quad stability), Honda XR100R (versatile trail bike), and Suzuki LT80 (compact quad). While all bikes share the core physics engine, their distinct characteristics give each one a different feel and learning curve.\n\nThe scoring system is elegantly simple yet demanding: your score increases only while the front wheel is airborne. This means every moment of hesitation, every accidental touchdown, and every correction matters. The scratch.mit.edu build responds instantly to input, making high-level runs dependent on calm, measured corrections rather than brute-force leaning. The minimalist approach—no complex missions, no time limits, just pure wheelie mastery—creates an addictive gameplay loop that rewards patience and precision.\n\nWhat sets this remix apart is ggIsaac24's custom motorcycle art and refined throttle tuning. Every vehicle has been redrawn with attention to detail, giving each bike its own visual identity while maintaining the accessible Scratch aesthetic. The faster acceleration compared to the original Wheelie Life means players must develop a lighter touch and better anticipation to avoid looping out. This creates a more challenging but ultimately more rewarding experience for players who want to push their skills to the limit."
+          },
+          "howToPlay": {
+            "title": "How to Play Wheelie Life ggIsaac24: Nail the Balance Point",
+            "content": "Wheelie Life ggIsaac24 keeps the arrow-key control scheme from the original Wheelie Life while tightening throttle response for a more demanding experience. Mastering the controls is the first step toward becoming a wheelie champion.",
+            "tips": [
+              {
+                "title": "Master the Basic Controls",
+                "description": "Use the right arrow (→) or D key to throttle and raise the front wheel. Press the left arrow (←) or A key to brake and lower the bike. The remix-specific physics accelerate faster than the base project, so gentle taps prevent looping out. Hold the right arrow in short bursts to lift, then feather the brake to catch balance before tipping. Avoid holding the throttle continuously—this build punishes aggressive inputs with instant crashes."
+              },
+              {
+                "title": "Feel the Remix-Specific Physics",
+                "description": "Take a moment at the start of each ride to feel how this build differs from other Wheelie Life versions. The tightened throttle response means the bike reacts more quickly to your inputs, requiring finer control and better timing. Start with gentle exploration to understand how your chosen bike responds before attempting long-distance runs. Each of the seven bikes has slightly different acceleration and balance characteristics, so what works on the Kawasaki KX250 might not work on the Honda CBR1000."
+              },
+              {
+                "title": "Navigate Slopes and Terrain Changes",
+                "description": "When climbing slopes, preload the throttle before the incline, then ease off at the crest to prevent a premature crash. The key is anticipation—watch the terrain ahead and prepare your inputs before you reach challenging sections. Descents work the opposite way: drag the brake to keep the wheel high without slamming down. The game's physics calculate momentum and weight transfer realistically, so smooth, gradual adjustments always work better than sudden corrections."
+              },
+              {
+                "title": "Develop Your Wheelie Rhythm",
+                "description": "Long runs reward rhythm over raw skill. Alternate throttle nudges with micro-brake inputs so the wheel hovers between 11 and 12 o'clock—that sweet spot where balance feels effortless. The score climbs only while the wheelie holds, meaning every correction matters. Practice in the free-ride stretch until the timing feels automatic, developing muscle memory that lets you react without thinking. Top players describe entering a flow state where corrections happen instinctively."
+              },
+              {
+                "title": "Experiment with Different Bikes",
+                "description": "Don't stick with just one motorcycle. Each of the seven bikes offers a different learning experience. The minibike is forgiving for beginners, the Kawasaki KX250 offers nimble handling, the Honda CBR1000 provides raw power, and the Yamaha Raptor 250 quad offers unique stability. Switching bikes helps you understand the core physics better and prevents your skills from becoming too specialized. Many top players recommend mastering at least three different bikes to develop well-rounded wheelie technique."
+              },
+              {
+                "title": "Learn from the Community",
+                "description": "With 70+ remixes and thousands of players, the Wheelie Life ggIsaac24 community is active and helpful. Watch how other players approach difficult sections, study their throttle timing, and don't be afraid to experiment with techniques you see in community videos. The Scratch platform makes it easy to view other players' approaches and learn from their successes and failures."
+              }
+            ]
+          },
+          "features": [
+            "Scratch-based wheelie simulator remix with ggIsaac24's custom motorcycle art and refined physics",
+            "Seven selectable bikes: Kawasaki KX250, Honda CBR1000, minibike, My Signature 2000, Yamaha Raptor 250, Honda XR100R, and Suzuki LT80",
+            "Each motorcycle features unique wheelbase lengths and weight distribution for distinct handling characteristics",
+            "Responsive throttle and brake physics tuned tighter than the base Wheelie Life project for increased challenge",
+            "Score increases only while holding a clean wheelie, encouraging precise balance work and punishing mistakes",
+            "Runs directly in browser via Scratch embed—no download, installation, or account required",
+            "Show Reload button enabled for quick restarts after crashes, maintaining gameplay flow",
+            "Supports desktop controls (arrow keys or WASD) with immediate input feedback and zero lag",
+            "Remix lineage credits IceGamer08 while introducing new acceleration curves and visual improvements",
+            "Over 73,000 views and 70+ community remixes demonstrate the game's popularity and moddability",
+            "Minimalist HUD design keeps focus on wheelie mechanics without distracting timers or mission objectives",
+            "Ideal training tool for players moving from Wheelie Life Scratch to advanced variants and real motorcycle understanding",
+            "Active community support with regular player-created remixes and variations to explore",
+            "Cross-platform compatibility—works on any device with a modern web browser and Scratch support"
+          ],
+          "whyPlay": {
+            "title": "What Makes Wheelie Life ggIsaac24 Special?",
+            "content": "Wheelie Life ggIsaac24 stands out in the crowded field of Scratch motorcycle games through its perfect balance of accessibility and depth. While the base Wheelie Life framework provides the foundation, ggIsaac24's remix elevates the experience with tightened physics, custom artwork, and a carefully curated selection of seven motorcycles that each offer distinct handling characteristics.\n\nThe game's popularity—over 73,000 views and 70+ community remixes since May 2024—speaks to its quality and replayability. Players cite the updated motorcycle art and sharper throttle tuning as key reasons to return, making it one of the most popular Wheelie Life spin-offs hosted on Scratch. The remix preserves what made the original great while adding enough new content and refinement to feel fresh and challenging.\n\nWhat truly sets this game apart is its focus on pure skill expression. There are no artificial progression gates, no pay-to-win mechanics, no energy systems—just you, your chosen bike, and the challenge of maintaining perfect balance. The scoring script's simple rule—points only accumulate while the front wheel is airborne—creates intense focus on technique rather than luck or grinding. Every run is a test of your current skill level, and improvement comes from practice and understanding rather than unlocking better equipment.\n\nThe Scratch platform integration is another major advantage. Because the game runs entirely in your browser through Scratch's embed system, you can play instantly without downloads, installations, or account creation. The platform's built-in reload button means you're never more than one click away from your next attempt, maintaining momentum and engagement. This frictionless experience makes it perfect for quick practice sessions or extended skill-building marathons.\n\nFor players interested in game design and modification, the Scratch platform offers unique educational value. You can view the project's code, understand how the physics work, and even create your own remix with different bikes or modified handling. This transparency and moddability have fostered an active community of creators who continue to build on ggIsaac24's work, ensuring the game's longevity and continued evolution."
+          },
+          "tips": {
+            "title": "Pro Strategies for Maximum Distance and Style",
+            "items": [
+              "Start each session with the minibike or Honda XR100R to warm up—their forgiving handling helps you find your rhythm before tackling more challenging bikes",
+              "Focus on developing a consistent throttle rhythm rather than reacting to every small balance shift—smooth, predictable inputs create longer runs than frantic corrections",
+              "Watch the terrain ahead, not just your current position—anticipating slopes and changes lets you prepare inputs before they're needed",
+              "Practice the 'feather technique': alternate between tiny throttle taps and brake touches to maintain the 11-12 o'clock sweet spot without overcorrecting",
+              "When learning a new bike, spend your first few runs just exploring its balance point without worrying about distance—understanding each bike's unique characteristics pays off in the long run",
+              "Use the quick reload feature strategically—if you know a run is doomed, restart immediately rather than fighting a losing battle, preserving your mental energy for quality attempts",
+              "Study your best runs to understand what you did right, not just your crashes—success leaves clues that help you replicate peak performance",
+              "Challenge yourself with bike-specific goals: master the stable Yamaha Raptor 250 quad first, then progress to the twitchy Honda CBR1000 sportbike for advanced challenge",
+              "Take breaks between intense practice sessions—fresh eyes and relaxed hands often lead to breakthrough performances after stepping away",
+              "Engage with the community remixes to see how other creators have modified the physics or added new bikes—studying variations deepens your understanding of the core mechanics",
+              "Set progressive distance goals rather than chasing perfection immediately—celebrate beating your personal best by even small margins to maintain motivation",
+              "Experiment with different keyboard positions and hand placements to find what gives you the most precise control—ergonomics matter for sustained high-level play"
+            ]
+          },
+          "communityImpact": {
+            "title": "Community Reception and Cultural Impact",
+            "content": "Since its May 2024 release, Wheelie Life ggIsaac24 has become a cornerstone of the Scratch motorcycle gaming community. The project's impressive statistics—over 73,000 views, dozens of loves, and 70+ remixes—demonstrate its significant impact and staying power in a platform known for rapid content turnover.\n\nThe game's success stems from ggIsaac24's respectful approach to remixing. By crediting IceGamer08's original Wheelie Life framework while adding substantial improvements, the project exemplifies the collaborative spirit that makes Scratch special. This approach has inspired dozens of other creators to build their own variations, creating a family tree of Wheelie Life games that each bring unique innovations while honoring the original vision.\n\nPlayers particularly praise the updated motorcycle art and sharper throttle tuning as key improvements over the base edition. The seven-bike garage offers enough variety to keep players engaged long-term, while the tightened physics provide a meaningful challenge for veterans of the original game. Community feedback consistently highlights the game's 'just one more try' addictiveness and the satisfaction of finally nailing a long-distance run after dozens of attempts.\n\nThe 70+ community remixes demonstrate the game's influence on aspiring Scratch developers. Many creators use Wheelie Life ggIsaac24 as a learning tool, studying its code to understand physics simulation, input handling, and game feel. This educational impact extends the game's value beyond pure entertainment, making it a valuable resource for anyone interested in game development fundamentals.\n\nFor players moving from casual Wheelie Life Scratch experiences to more advanced motorcycle simulations, ggIsaac24's remix serves as an ideal bridge. The tightened physics and faster acceleration prepare players for the demands of more complex games while maintaining the accessibility that makes Scratch games so approachable. Many players report that skills developed in this game—throttle control, balance awareness, terrain anticipation—translate surprisingly well to other motorcycle games and even real-world riding understanding."
+          }
         }
       }
     ]

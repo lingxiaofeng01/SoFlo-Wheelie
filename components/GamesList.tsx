@@ -36,7 +36,7 @@ export function GamesList({ title, subtitle, games }: GamesListProps) {
         <p className="text-slate-400 text-base sm:text-lg max-w-3xl mx-auto">{subtitle}</p>
       </div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6">
         {games.map((game) => (
           <GameCard key={game.id} {...game} />
         ))}

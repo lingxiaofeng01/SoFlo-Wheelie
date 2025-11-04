@@ -5,6 +5,7 @@ import { Gamepad2 } from 'lucide-react';
 import { GameEmbed } from '@/components/GameEmbed';
 import { BreadcrumbNav } from '@/components/BreadcrumbNav';
 import { Footer } from '@/components/Footer';
+import { ToolBar } from '@/components/ToolBar';
 import content from '@/content/en.json';
 
 interface Props {
@@ -60,14 +61,19 @@ export default function GamePage({ params }: Props) {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-        {/* Breadcrumb Navigation */}
-        <BreadcrumbNav
-          items={[
-            { label: 'Wheelie Games', href: '/wheelie-games' },
-            { label: game.title }
-          ]}
-        />
+      <ToolBar
+        games={content.games.list}
+        shareTitle={`${game.title} - Play Free Online`}
+        shareDescription={game.description}
+      />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+          {/* Breadcrumb Navigation */}
+          <BreadcrumbNav
+            items={[
+              { label: 'Wheelie Games', href: '/wheelie-games' },
+              { label: game.title }
+            ]}
+          />
 
         <div className="mb-8">
           <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-6">
@@ -295,6 +301,25 @@ export default function GamePage({ params }: Props) {
               <div className="space-y-4 text-slate-300 text-base sm:text-lg leading-relaxed whitespace-pre-line">
                 {/* @ts-ignore */}
                 {game.fullDescription.challenging.content}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Community Impact Section */}
+        {/* @ts-ignore */}
+        {game.fullDescription?.communityImpact && (
+          <section className="mb-12">
+            <div className="bg-gradient-to-br from-green-900/30 to-teal-900/30 backdrop-blur-sm rounded-2xl p-8 sm:p-10 border border-green-700/50">
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-teal-400">
+                  {/* @ts-ignore */}
+                  {game.fullDescription.communityImpact.title}
+                </span>
+              </h2>
+              <div className="space-y-4 text-slate-300 text-base sm:text-lg leading-relaxed whitespace-pre-line">
+                {/* @ts-ignore */}
+                {game.fullDescription.communityImpact.content}
               </div>
             </div>
           </section>

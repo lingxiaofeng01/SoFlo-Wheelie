@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { GamesList } from '@/components/GamesList';
 import { BreadcrumbNav } from '@/components/BreadcrumbNav';
 import { Footer } from '@/components/Footer';
+import { ToolBar } from '@/components/ToolBar';
 import content from '@/content/en.json';
 
 export const metadata: Metadata = {
@@ -22,13 +23,18 @@ export const metadata: Metadata = {
 export default function WheelieGamesPage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-        {/* Breadcrumb Navigation */}
-        <BreadcrumbNav
-          items={[
-            { label: 'Wheelie Games' }
-          ]}
-        />
+      <ToolBar
+        games={content.games.list}
+        shareTitle="Wheelie Games - Best Motorcycle Games Online"
+        shareDescription="Play the best wheelie motorcycle games online for free"
+      />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+          {/* Breadcrumb Navigation */}
+          <BreadcrumbNav
+            items={[
+              { label: 'Wheelie Games' }
+            ]}
+          />
 
         <div className="mb-8">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4">
