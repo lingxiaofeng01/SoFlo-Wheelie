@@ -815,6 +815,108 @@
         }
       },
       {
+        "id": "stunt-bike-extreme",
+        "title": "Stunt Bike Extreme",
+        "slug": "stunt-bike-extreme",
+        "description": "Race through rough terrain in Stunt Bike Extreme, a 2023 dirt bike stunt game where speed, balance, and skill decide every victory. Master realistic physics across challenging off-road tracks filled with rocky hills, ramps, and narrow bridges.",
+        "thumbnail": "https://soflowheelielife.org/data/image/stunt-bike-extreme.jpeg",
+        "iframeUrl": "https://g.igroutka.ru/games/793/2xTdm6GrXEuN0Kwq/fe831138-3321-40ed-b8cd-f1c482091e04/index.html",
+        "category": "Wheelie",
+        "tags": [
+          "stunt",
+          "dirt-bike",
+          "racing",
+          "physics",
+          "off-road",
+          "extreme",
+          "skill"
+        ],
+        "isNew": true,
+        "fullDescription": {
+          "intro": "Stunt Bike Extreme, released in 2023 by Monster Games Studio, is a racing and stunt simulation game that tests your control and precision on tough off-road tracks. You ride a dirt bike across rocky hills, ramps, and narrow bridges, performing stunts while trying to stay balanced. The goal is to finish each level as fast as possible without crashing, using skill and timing to master every course. This adrenaline-pumping motorcycle game combines realistic physics with challenging terrain design to create an authentic off-road riding experience that rewards patience, precision, and fearless execution.",
+          "gameplay": {
+            "title": "Stunt Bike Extreme Gameplay Overview",
+            "content": "The game focuses on physics-based movement and realistic bike handling that captures the authentic feel of dirt bike racing. Players control the bike using the arrow keys—accelerate, brake, and tilt to stay balanced while jumping over gaps or landing on rough ground. Every stage offers a new terrain challenge, from dense forest trails winding through trees to dramatic cliffside ramps that test your nerve and precision.\n\nWhat sets Stunt Bike Extreme apart from casual motorcycle games is its commitment to realistic physics simulation. The bike responds authentically to every input, calculating weight distribution, momentum, and suspension compression in real-time. When you hit a jump, you must actively manage your bike's rotation in mid-air to ensure a clean landing. Too much forward lean and you'll crash on your front wheel; too much backward lean and you'll flip over. Finding that perfect balance point during flight is crucial for maintaining speed and avoiding costly crashes.\n\nThe faster you finish each level, the higher your star score. This star-based reward system creates natural tension between playing it safe and pushing for maximum speed. Do you take that risky shortcut over the steep ramp, or do you play it safe on the longer but more stable route? These split-second decisions add strategic depth to what could otherwise be a purely mechanical challenge.\n\nStars and rewards earned from completing levels can be used to unlock better bikes and upgrades for tougher courses. Each new bike offers improved handling characteristics, better acceleration, or enhanced stability—giving you the tools needed to tackle increasingly difficult tracks. The progression system ensures you're always working toward meaningful goals while developing the skills necessary to master advanced courses.\n\nThe game features varied environments that keep the experience fresh and challenging. Forest trails require precise navigation through tight spaces and over fallen logs. Mountain paths test your ability to maintain balance on steep inclines and treacherous descents. Cliffside ramps demand perfect timing and nerve as you launch your bike across massive gaps with nothing but air beneath you. Each environment introduces unique obstacles and terrain features that require different techniques and approaches to master."
+          },
+          "howToPlay": {
+            "title": "How to Play Stunt Bike Extreme: Master the Controls",
+            "content": "Mastering Stunt Bike Extreme requires understanding both the basic controls and the advanced techniques that separate good riders from great ones. The game uses intuitive arrow key controls that are easy to learn but challenging to master.",
+            "tips": [
+              {
+                "title": "Arrow Key Controls",
+                "description": "Use the Up Arrow (↑) to accelerate and power through challenging terrain. The Down Arrow (↓) applies the brake, helping you slow down before tricky sections or adjust your landing angle. The Left Arrow (←) and Right Arrow (→) control your bike's tilt in the air and on the ground—essential for maintaining balance during jumps and navigating steep slopes. Mastering the interplay between these four inputs is the foundation of success in Stunt Bike Extreme."
+              },
+              {
+                "title": "Keep the Bike Steady When Landing from Jumps",
+                "description": "Landing is one of the most critical skills in Stunt Bike Extreme. As you approach a landing, use the left and right arrow keys to level out your bike so both wheels touch down simultaneously or with a slight rear-wheel bias. A perfectly balanced landing maintains your momentum and prevents crashes. Watch the terrain ahead to anticipate the landing angle and prepare your bike's orientation accordingly. Practice makes perfect—spend time on easier jumps to develop the muscle memory needed for more challenging aerial sections."
+              },
+              {
+                "title": "Use Short Bursts of Acceleration Instead of Holding the Throttle",
+                "description": "Constant full throttle might seem like the fastest approach, but it often leads to loss of control and crashes. Instead, use short, controlled bursts of acceleration when you need power—climbing hills, launching off ramps, or recovering from slow sections. Between these bursts, ease off the throttle to maintain control and prepare for upcoming obstacles. This throttle management technique gives you better control over your bike's behavior and helps prevent the front wheel from lifting too high on steep climbs."
+              },
+              {
+                "title": "Learn the Layout of Each Track Before Speeding Through It",
+                "description": "Your first run on any new track should be a learning experience rather than a speed attempt. Take it slow, observe the placement of obstacles, identify the challenging sections, and note where jumps and gaps appear. Understanding the track layout allows you to plan your approach, knowing when to accelerate hard and when to exercise caution. Once you've memorized the course, you can push for faster times with confidence, knowing what's coming next."
+              },
+              {
+                "title": "Replay Completed Levels to Earn More Stars and Upgrades",
+                "description": "Don't just complete a level once and move on. Returning to earlier tracks with improved skills and better bikes allows you to achieve higher star ratings and unlock additional rewards. Each replay is an opportunity to refine your technique, discover faster routes, and perfect your execution. The star system encourages this replayability by rewarding exceptional performance with tangible benefits that help you progress through more difficult content."
+              }
+            ]
+          },
+          "features": [
+            "Realistic physics engine that simulates authentic dirt bike behavior and weight distribution",
+            "Varied environments including forest trails, mountain paths, and cliffside ramps",
+            "Star-based reward system that tracks performance and encourages improvement",
+            "Multiple bikes with unique handling characteristics and performance attributes",
+            "Progressive difficulty curve that introduces new challenges as skills develop",
+            "Upgrade system allowing customization and improvement of bike capabilities",
+            "Tight, responsive controls that reward precise player input and timing",
+            "Challenging terrain design featuring rocky hills, ramps, narrow bridges, and gaps",
+            "Smooth gameplay that runs flawlessly in modern web browsers",
+            "No downloads or installations required—play instantly online",
+            "Achievement system that celebrates milestones and exceptional performances",
+            "Replay value through level mastery and star collection challenges"
+          ],
+          "highlights": {
+            "title": "What Makes Stunt Bike Extreme Stand Out",
+            "content": "Stunt Bike Extreme delivers a solid mix of speed and balance with real off-road tension that keeps players engaged from start to finish. Unlike arcade-style motorcycle games that prioritize flashy graphics over substance, this game focuses on authentic physics and skill-based gameplay that rewards practice and precision.\n\nThe realistic physics and smooth handling create an immersive experience where every movement feels consequential. You're not just pressing buttons—you're actively managing weight distribution, momentum, and balance in real-time. This creates a deep connection between player input and on-screen action that makes success feel earned and crashes feel like learning opportunities.\n\nThe varied environments and track designs ensure that no two levels feel the same. Each new course introduces unique challenges that require different techniques and approaches. Forest trails demand precise navigation, mountain paths test your climbing ability, and cliffside sections challenge your nerve and timing. This variety prevents the gameplay from becoming repetitive and keeps you engaged throughout the entire experience.\n\nThe star-based reward system with performance tracking adds meaningful progression to the game. You're not just completing levels—you're striving for excellence, pushing for faster times, and earning rewards that unlock new content. This creates a satisfying gameplay loop where improvement is both visible and rewarding.\n\nMultiple bikes and upgrade options provide long-term goals and customization opportunities. As you progress, you'll unlock bikes with better handling, improved acceleration, or enhanced stability. These upgrades aren't just cosmetic—they genuinely affect how the game plays and give you new tools to tackle challenging content. Experimenting with different bikes and finding the one that matches your playing style adds another layer of depth to the experience.\n\nThe tight controls that reward precise play separate Stunt Bike Extreme from more forgiving motorcycle games. There's no auto-balance, no invisible safety nets—just pure skill-based gameplay where your inputs directly determine success or failure. This uncompromising approach creates intense satisfaction when you finally master a difficult section or achieve a perfect run."
+          },
+          "whyPlay": {
+            "title": "Why Play Stunt Bike Extreme?",
+            "content": "Stunt Bike Extreme is a great pick for players who like skill-based racing games that rely on timing and control rather than luck. If you're tired of games that hold your hand or rely on random elements, this game offers a refreshing challenge where improvement comes from developing genuine skill.\n\nThe game strikes an excellent balance between accessibility and depth. The basic controls are simple enough that anyone can start playing within seconds, yet mastering the advanced techniques required for top performance takes dedication and practice. This makes it perfect for both casual players looking for an engaging challenge and hardcore gamers seeking to perfect their technique.\n\nThe browser-based format means you can play anywhere, anytime, without downloads or installations. Whether you're taking a quick break at work, relaxing at home, or traveling with a laptop, Stunt Bike Extreme is always just a click away. This accessibility combined with quick level completion times makes it perfect for both short gaming sessions and extended practice marathons.\n\nThe progression system provides constant motivation to improve. Every star earned, every bike unlocked, and every personal best beaten represents tangible progress. This creates a satisfying sense of advancement that keeps you coming back for more. You're not just playing—you're building skills, unlocking content, and working toward mastery.\n\nFor motorcycle enthusiasts, the game offers a safe way to experience the thrill of off-road dirt bike racing without the real-world risks. The realistic physics give you insight into how actual dirt bikes behave, teaching concepts like weight transfer, momentum management, and landing technique. While it's no substitute for real riding, it captures the essence of what makes motorcycle stunts exciting.\n\nThe game's difficulty curve is expertly designed to challenge without frustrating. Early levels teach fundamental skills in a forgiving environment, while later courses push your abilities to the limit. This gradual progression ensures you're always facing appropriate challenges that stretch your skills without overwhelming you. When you finally conquer a level that seemed impossible just hours earlier, the sense of accomplishment is immense."
+          },
+          "tips": {
+            "title": "Pro Strategies for Mastering Stunt Bike Extreme",
+            "items": [
+              "Keep the bike steady when landing from jumps—level out your bike in mid-air for smooth, momentum-preserving landings",
+              "Use short bursts of acceleration instead of holding the throttle—controlled power application prevents loss of control",
+              "Learn the layout of each track before speeding through it—knowledge of upcoming obstacles allows confident, fast runs",
+              "Replay completed levels to earn more stars and upgrades—returning with better skills unlocks higher ratings",
+              "Master weight transfer by leaning forward on climbs and backward on descents to maintain optimal traction",
+              "Practice air control on easier jumps before attempting the massive gaps on advanced levels",
+              "Watch for visual cues that indicate upcoming obstacles—terrain changes, ramp angles, and gap distances",
+              "Experiment with different bikes to find one that matches your playing style and the specific track requirements",
+              "Focus on consistency over speed in early attempts—clean runs that avoid crashes often beat reckless speed attempts",
+              "Use the brake strategically before jumps to control your launch angle and prevent over-rotation",
+              "Study your crashes to understand what went wrong—every failure is a learning opportunity",
+              "Develop a rhythm for each track section—consistent timing often works better than reactive play",
+              "Don't neglect bike upgrades—improved handling and acceleration make difficult sections significantly easier",
+              "Challenge yourself to beat your own times rather than just completing levels—self-competition drives improvement",
+              "Take breaks if frustration builds—fresh eyes and relaxed hands often lead to breakthrough performances"
+            ]
+          },
+          "relatedGames": {
+            "title": "Related Games You Might Enjoy",
+            "content": "If you enjoy Stunt Bike Extreme, you'll love other motorcycle and wheelie games in our collection. **SoFlo Wheelie Life** offers a street-riding challenge that focuses on balance and control while performing wheelies through urban environments. **Street Wheelie** provides a 3D wheelie experience with enhanced physics and multiple maps to explore. **Wheelie Bike** delivers funny, skill-based gameplay where you keep your front wheel off the ground across various obstacles. Each game offers a unique take on motorcycle stunting, ensuring you'll find the perfect challenge for your skill level and preferences."
+          },
+          "conclusion": {
+            "title": "Final Verdict",
+            "content": "Stunt Bike Extreme delivers a solid mix of speed and balance with real off-road tension. It's a great pick for players who like skill-based racing games that rely on timing and control rather than luck. The realistic physics, varied environments, and rewarding progression system combine to create an engaging experience that keeps players coming back for more. Whether you're a motorcycle enthusiast looking for authentic dirt bike simulation or a casual gamer seeking a challenging skill-based experience, Stunt Bike Extreme offers hours of engaging gameplay that rewards practice, precision, and fearless execution. Jump on your dirt bike, master the challenging terrain, and prove you have what it takes to conquer every course!"
+          }
+        }
+      },
+      {
         "id": "wheelie-life-ggisaac24",
         "title": "Wheelie Life ggIsaac24",
         "slug": "wheelie-life-ggisaac24",
@@ -908,6 +1010,105 @@
           "communityImpact": {
             "title": "Community Reception and Cultural Impact",
             "content": "Since its May 2024 release, Wheelie Life ggIsaac24 has become a cornerstone of the Scratch motorcycle gaming community. The project's impressive statistics—over 73,000 views, dozens of loves, and 70+ remixes—demonstrate its significant impact and staying power in a platform known for rapid content turnover.\n\nThe game's success stems from ggIsaac24's respectful approach to remixing. By crediting IceGamer08's original Wheelie Life framework while adding substantial improvements, the project exemplifies the collaborative spirit that makes Scratch special. This approach has inspired dozens of other creators to build their own variations, creating a family tree of Wheelie Life games that each bring unique innovations while honoring the original vision.\n\nPlayers particularly praise the updated motorcycle art and sharper throttle tuning as key improvements over the base edition. The seven-bike garage offers enough variety to keep players engaged long-term, while the tightened physics provide a meaningful challenge for veterans of the original game. Community feedback consistently highlights the game's 'just one more try' addictiveness and the satisfaction of finally nailing a long-distance run after dozens of attempts.\n\nThe 70+ community remixes demonstrate the game's influence on aspiring Scratch developers. Many creators use Wheelie Life ggIsaac24 as a learning tool, studying its code to understand physics simulation, input handling, and game feel. This educational impact extends the game's value beyond pure entertainment, making it a valuable resource for anyone interested in game development fundamentals.\n\nFor players moving from casual Wheelie Life Scratch experiences to more advanced motorcycle simulations, ggIsaac24's remix serves as an ideal bridge. The tightened physics and faster acceleration prepare players for the demands of more complex games while maintaining the accessibility that makes Scratch games so approachable. Many players report that skills developed in this game—throttle control, balance awareness, terrain anticipation—translate surprisingly well to other motorcycle games and even real-world riding understanding."
+          }
+        }
+      },
+      {
+        "id": "wheelie-cross",
+        "title": "Wheelie Cross",
+        "slug": "wheelie-cross",
+        "description": "Wheelie Cross is a physics-based motorcycle balance game where you perform wheelies across challenging terrain. Master throttle control, collect coins, and unlock quirky vehicles from classic bikes to unicorns in this addictive one-wheel challenge.",
+        "thumbnail": "/wheelie-cross-thumb.jpeg",
+        "iframeUrl": "https://ext.minijuegosgratis.com/embed/wheelie-cross/index.html?mp_api_as3_url=https%3A%2F%2Fssl.minijuegosgratis.com%2Flechuck%2Fas3%2Flatest.swf&mp_api_as3_url_bck=https%3A%2F%2Fapi.minijuegos.com%2Flechuck%2Fclient-as%2F&mp_api_id=2837&mp_api_js_url=https%3A%2F%2Fssl.minijuegosgratis.com%2Flechuck%2Fjs%2Flatest.js&mp_api_js_url_bck=https%3A%2F%2Fapi.minijuegos.com%2Flechuck%2Fclient-js%2F&mp_assets=https%3A%2F%2Fs2.minijuegosgratis.com%2F&mp_embed=0&mp_game_id=228342&mp_game_uid=wheelie-cross&mp_game_url=https%3A%2F%2Fwww.miniplay.com%2Fembed%2Fwheelie-cross&mp_int=1&mp_locale=en_US&mp_player_type=IFRAME&mp_site_https_url=https%3A%2F%2Fwww.miniplay.com%2F&mp_site_name=miniplay.com&mp_site_url=https%3A%2F%2Fwww.miniplay.com%2F&mp_timezone=Europe%2FMadrid&mp_view_type=&mini_signature=c2a6693783dcbaff6bbef321b68e7787",
+        "category": "Wheelie",
+        "tags": [
+          "wheelie",
+          "physics",
+          "balance",
+          "motorcycle",
+          "casual",
+          "coins",
+          "vehicles"
+        ],
+        "isNew": true,
+        "fullDescription": {
+          "intro": "Wheelie Cross is a physics-based motorcycle balance game released by FG Studio in 2019 that transforms the simple concept of performing a wheelie into an addictive test of skill and patience. Unlike traditional racing games with finish lines and opponents, Wheelie Cross focuses on one pure challenge: keeping your motorcycle balanced on its rear wheel for as long as possible while navigating unpredictable terrain. There's no turbo boost, no power-ups, just you, your bike, and gravity constantly threatening to pull you down. The game's deceptively simple premise—pull up the front wheel and roll—quickly reveals layers of depth as you encounter uneven slopes, challenging ramps, and subtle terrain changes that demand perfect timing and precise control.",
+          "gameplay": {
+            "title": "The Challenge of Wheelie Cross: Balance, Skill, and the Art of the Perfect Wheelie",
+            "content": "At first glance, Wheelie Cross appears straightforward: tap to lift the front wheel and maintain balance. However, the true challenge emerges once you experience the game's sophisticated physics simulation and dynamic terrain design. Every second you survive adds to your score and your sense of accomplishment, but a single mistake—holding the throttle a fraction too long or leaning back just slightly too far—ends your run instantly.\n\nThe game's physics engine calculates weight distribution, momentum, and balance in real-time, creating an authentic motorcycle wheelie experience that rewards finesse over brute force. When you tap to accelerate, you'll feel the rear suspension compress and the front wheel lift. The challenge lies in finding that perfect balance point where the bike hovers effortlessly at the ideal angle. Too much throttle and you'll flip backward spectacularly; too little and the front wheel crashes down, ending your attempt.\n\nWhat makes Wheelie Cross particularly engaging is how terrain variations constantly test your adaptability. You'll encounter gentle slopes that seem manageable until you realize they're gradually steepening, forcing you to adjust your balance mid-run. Sudden ramps appear that launch you into the air, requiring precise landing control to avoid crashing. Subtle dips in the road throw off your timing, demanding quick reactions to maintain your wheelie. Each terrain feature introduces new challenges that prevent the gameplay from becoming repetitive.\n\nCoins scattered strategically along your path add a risk-reward element to every run. These collectibles aren't just decorative—they're your currency for unlocking the game's diverse vehicle roster. However, coins are often placed in challenging positions that tempt you into risky maneuvers. Do you maintain your safe, stable wheelie, or do you lean back further to grab that coin on a steep slope? These split-second decisions add strategic depth to what could otherwise be a purely mechanical challenge.\n\nThe vehicle unlock system provides long-term progression and variety. Starting with a standard motorcycle, you can gradually unlock increasingly quirky and entertaining options. Classic café racers offer balanced handling perfect for learning advanced techniques. Futuristic bikes provide unique visual flair while testing your skills with different weight distributions. The game even includes absurd options like a unicorn or a shopping cart, each with its own handling characteristics that completely change how you approach the challenge. Light vehicles are easier to control initially but less stable at high speeds, while heavier options require more skill to lift but maintain wheelies more consistently once balanced.\n\nThe scoring system creates natural competition and motivation for improvement. Your distance traveled directly translates to your score, encouraging you to push just a little further each attempt. The game tracks your personal best, creating a constant benchmark to beat. This simple but effective progression system ensures you're always chasing improvement, whether you're trying to beat your previous record by a few meters or attempting to double your best distance through mastered technique."
+          },
+          "howToPlay": {
+            "title": "Mastering Wheelie Cross: Controls, Techniques, and Pro Strategies",
+            "content": "Wheelie Cross features an elegantly simple control scheme that anyone can learn in seconds, yet mastering these controls to achieve impressive distances requires dedication and practice. The game's genius lies in how it transforms minimal inputs into complex, engaging gameplay.",
+            "tips": [
+              {
+                "title": "Master the Tap-and-Hold Technique",
+                "description": "The core control mechanic involves tapping and holding to lift and maintain the front wheel. However, the key to success isn't continuous holding—it's learning to tap lightly and release strategically. Instead of mashing the screen or mouse button, use gentle, controlled taps to lift the wheel to your desired angle. Once you've found the balance point, make micro-adjustments with tiny taps rather than long holds. This technique gives you much finer control over your bike's angle and prevents the common mistake of over-rotating and flipping backward. Think of it like playing a musical instrument—rhythm and timing matter more than force."
+              },
+              {
+                "title": "Find and Maintain the Sweet Spot",
+                "description": "Every vehicle in Wheelie Cross has a balance point—that perfect angle where the bike hovers effortlessly without tipping forward or backward. This sweet spot typically exists when your bike is angled between 11 and 12 o'clock on an imaginary clock face. Finding this angle is crucial for long-distance runs. Start each attempt by gradually lifting the front wheel while paying close attention to how the bike responds. When you find that moment where the bike feels stable and requires minimal input to maintain, you've discovered the sweet spot. Practice holding this angle consistently, as it's the foundation of all advanced techniques. Different vehicles have different balance points, so you'll need to rediscover this sweet spot each time you unlock a new ride."
+              },
+              {
+                "title": "Read the Terrain Ahead",
+                "description": "Successful Wheelie Cross players don't just react to terrain changes—they anticipate them. Train yourself to look ahead at the upcoming road rather than focusing solely on your current position. When you see a slope approaching, prepare to adjust your balance before you reach it. Uphill sections require slightly more aggressive wheelie angles to maintain momentum, while downhill areas demand careful control to prevent the front wheel from dropping. Ramps need special attention—you'll want to be at a stable angle before launching, then prepare for the landing by adjusting your tilt mid-air. By reading terrain ahead and preparing your inputs in advance, you'll maintain smoother runs and avoid the panic reactions that often lead to crashes."
+              },
+              {
+                "title": "Strategic Coin Collection",
+                "description": "While collecting coins is important for unlocking new vehicles, don't sacrifice your run for every single coin. Develop a strategic approach to coin collection based on risk assessment. Coins positioned on flat, stable terrain are safe to grab—go for these every time. Coins placed on steep slopes or just before obstacles require careful judgment. Ask yourself: 'Can I safely adjust my angle to reach this coin and recover my balance afterward?' If the answer is uncertain, it's often better to skip the coin and maintain your run. Remember, a long-distance run that collects fewer coins often earns more total coins than a short run that crashes while chasing a difficult pickup. As your skills improve, you'll naturally be able to grab more challenging coins while maintaining stability."
+              },
+              {
+                "title": "Experiment with Different Vehicles",
+                "description": "Each vehicle in Wheelie Cross offers a unique learning experience and handling characteristics. Don't stick with just one favorite—experiment with the entire roster to develop well-rounded skills. Lighter vehicles like the standard bike are forgiving for beginners, responding quickly to inputs and requiring less force to lift. These are perfect for learning basic balance and control. Heavier vehicles like some of the unlockable bikes require more skill to initiate wheelies but offer greater stability once balanced, making them ideal for distance attempts once you've mastered the fundamentals. The quirky vehicles like the unicorn or shopping cart completely change the game's feel, offering fresh challenges that prevent your skills from becoming too specialized. Switching between vehicles regularly helps you understand the core physics better and makes you a more adaptable player."
+              },
+              {
+                "title": "Learn from Every Crash",
+                "description": "Every crash in Wheelie Cross is a learning opportunity disguised as a failure. Instead of immediately restarting after a crash, take a moment to analyze what went wrong. Did you lean too far back? Were you too aggressive with the throttle? Did you fail to anticipate a terrain change? Understanding the cause of your crashes helps you avoid repeating the same mistakes. Keep mental notes of common failure points—maybe you always crash on downhill sections, or perhaps you struggle with landing after ramps. Once you've identified your weaknesses, you can focus your practice on those specific skills. The best Wheelie Cross players treat failures as data points that inform their improvement strategy rather than frustrating setbacks."
+              }
+            ]
+          },
+          "features": [
+            "Physics-based wheelie mechanics that reward skill and precision over luck",
+            "Simple one-touch control system perfect for quick gaming sessions",
+            "Dynamic terrain with slopes, ramps, dips, and challenging obstacles",
+            "Coin collection system for unlocking diverse vehicle roster",
+            "Multiple vehicles with unique handling characteristics and visual styles",
+            "Quirky unlockables including unicorns and shopping carts for variety",
+            "Progressive difficulty that increases naturally as you improve",
+            "Instant restart feature for seamless practice and quick retry",
+            "Score tracking and personal best records for competitive motivation",
+            "Smooth browser-based gameplay with no downloads required",
+            "Addictive 'just one more try' gameplay loop that keeps you engaged",
+            "Suitable for all skill levels from casual players to hardcore challengers"
+          ],
+          "whyPlay": {
+            "title": "What Makes Wheelie Cross Addictive and Engaging?",
+            "content": "Wheelie Cross stands out in the casual gaming landscape through its perfect execution of a simple concept. The game doesn't try to do everything—instead, it focuses on perfecting one core mechanic: the wheelie. This laser focus creates a uniquely satisfying experience where improvement is always visible and achievable.\n\nThe addictive nature of Wheelie Cross lies in its demanding physics system that requires constant attention and adjustment. Unlike games where you can zone out and play on autopilot, every moment in Wheelie Cross demands active engagement. You're constantly making micro-adjustments, reading terrain, and managing the delicate balance between risk and reward. This creates an intense focus that's both challenging and meditative—similar to the flow state experienced in other skill-based games.\n\nThe terrain variety ensures that no two runs feel exactly the same. Even if you're traveling the same general path, the combination of your current speed, angle, and momentum creates unique challenges each time. Steep slopes that were manageable on one run might catch you off guard on the next. Ramps that you cleared perfectly before might send you tumbling if you hit them at a slightly different angle. This unpredictability keeps the gameplay fresh and prevents it from becoming repetitive, even after hundreds of attempts.\n\nThe progression system adds meaningful long-term goals to the immediate challenge of each run. Unlocking new vehicles provides tangible rewards for your efforts and gives you new tools to tackle the game's challenges. Each vehicle feels genuinely different, offering fresh experiences and strategies to explore. The quirky unlockables inject humor and personality into the game, making the grind for coins feel rewarding rather than tedious. Whether you're working toward unlocking that futuristic bike or saving up for the absurd shopping cart, you always have a goal beyond just beating your previous distance.\n\nThe game's instant restart feature is crucial to its addictive quality. When you crash, you're never more than a single tap away from your next attempt. This seamless retry system maintains momentum and engagement, preventing the frustration that comes from lengthy loading screens or complicated restart processes. The 'just one more try' mentality is powerful in Wheelie Cross because acting on that impulse is effortless—you can be back in the action within a second of deciding to try again.\n\nWhether you're looking for a quick gaming session during a break or an extended challenge to master, Wheelie Cross delivers. Short runs of 30 seconds provide satisfying gameplay experiences perfect for filling small pockets of free time. Yet the game also supports dedicated practice sessions for players who want to chase high scores or perfect their technique. This flexibility means Wheelie Cross fits into your schedule rather than demanding specific time commitments, making it accessible for players with varying amounts of free time."
+          },
+          "tips": {
+            "title": "Pro Strategies for Maximum Distance and Coin Collection",
+            "items": [
+              "Start each run with gentle taps to establish your balance before attempting aggressive wheelie angles—patience in the opening seconds sets up longer runs",
+              "Develop a consistent tapping rhythm rather than making random inputs—many top players describe their technique as almost musical in its regularity",
+              "Watch the shadows beneath your bike to sense when you're leaning too far back—shadows provide visual feedback that helps prevent over-rotation",
+              "Practice on easier vehicles first to build fundamental skills before attempting the challenging heavy bikes or quirky unlockables",
+              "Focus on distance over coins in your early attempts—building wheelie skills first makes coin collection much easier later",
+              "Take short breaks every 15-20 minutes to prevent fatigue from degrading your performance and leading to sloppy technique",
+              "Study the terrain patterns to identify which sections are most dangerous and require extra caution versus which allow aggressive play",
+              "Experiment with different screen positions or mouse placements to find what gives you the most precise control—ergonomics matter",
+              "Set incremental goals like 'beat my previous distance by 10 meters' rather than aiming for perfection immediately",
+              "Don't panic when you start tipping backward—a gentle release of the throttle is usually enough to recover without crashing",
+              "Challenge friends to beat your scores for added motivation and competitive drive that keeps you coming back",
+              "Celebrate small improvements and personal bests rather than getting frustrated by crashes—positive reinforcement maintains motivation"
+            ]
+          },
+          "developer": {
+            "title": "About FG Studio and Wheelie Cross",
+            "content": "Wheelie Cross was developed by FG Studio and released in 2019 as part of their portfolio of accessible, skill-based casual games. FG Studio has built a reputation for creating games that focus on simple mechanics executed perfectly, and Wheelie Cross exemplifies this philosophy. The game demonstrates sophisticated understanding of what makes casual games addictive: easy-to-learn controls, clear feedback, meaningful progression, and a difficulty curve that challenges without frustrating.\n\nFG Studio's approach to game design prioritizes player experience over flashy graphics or complex systems. Wheelie Cross runs smoothly on virtually any device, loads quickly, and provides instant gameplay without unnecessary menus or tutorials. This player-first design philosophy has made FG Studio's games popular among casual gamers who want quality entertainment without the commitment required by more complex titles.\n\nThe success of Wheelie Cross has inspired numerous similar games, but the original remains popular due to its polished execution and balanced difficulty. FG Studio continues to support the game and has used lessons learned from its development to create other engaging casual experiences. For players who enjoy Wheelie Cross, exploring FG Studio's other titles often reveals similar quality and attention to player experience."
+          },
+          "relatedGames": {
+            "title": "If You Love Wheelie Cross, Try These Games",
+            "content": "Fans of Wheelie Cross will find plenty to enjoy in our collection of wheelie and motorcycle games. **Wheelie Bike** offers a similar one-wheel balancing challenge with a funny, lighthearted presentation and obstacle-filled courses. **Wheelie Up** provides another take on the wheelie formula with its own unique physics and progression system. For players seeking more complex motorcycle experiences, **Street Wheelie** delivers 3D graphics and multiple maps to explore, while **SoFlo Wheelie Life** offers an authentic street-riding challenge inspired by real motorcycle culture. Each game brings its own flavor to the wheelie genre, ensuring you'll find the perfect challenge for your skill level and preferences."
           }
         }
       }

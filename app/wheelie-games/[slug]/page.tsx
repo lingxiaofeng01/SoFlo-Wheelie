@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Gamepad2 } from 'lucide-react';
 import { GameEmbed } from '@/components/GameEmbed';
 import { BreadcrumbNav } from '@/components/BreadcrumbNav';
@@ -342,8 +343,9 @@ export default function GamePage({ params }: Props) {
           </section>
         )}
 
+        {/* More Wheelie Games Section - Image + Text Layout */}
         <section className="mb-12">
-          <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8 text-center">
             More Wheelie Games
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -354,10 +356,33 @@ export default function GamePage({ params }: Props) {
                 <Link
                   key={otherGame.id}
                   href={`/wheelie-games/${otherGame.slug}`}
-                  className="bg-slate-800/30 backdrop-blur-sm rounded-xl p-4 border border-slate-700 hover:border-slate-600 transition-all hover:transform hover:scale-105"
+                  className="group bg-slate-800/30 backdrop-blur-sm rounded-xl overflow-hidden border border-slate-700 hover:border-slate-600 transition-all hover:transform hover:scale-105"
                 >
-                  <h3 className="text-lg font-semibold text-white mb-2">{otherGame.title}</h3>
-                  <p className="text-slate-400 text-sm line-clamp-2">{otherGame.description}</p>
+                  {/* Game Thumbnail */}
+                  <div className="relative aspect-video w-full overflow-hidden bg-slate-900/50">
+                    <Image
+                      src={otherGame.thumbnail}
+                      alt={otherGame.title}
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-300"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    />
+                    {otherGame.isNew && (
+                      <div className="absolute top-2 right-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        NEW
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Game Info */}
+                  <div className="p-4">
+                    <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-blue-400 transition-colors">
+                      {otherGame.title}
+                    </h3>
+                    <p className="text-slate-400 text-sm line-clamp-2">
+                      {otherGame.description}
+                    </p>
+                  </div>
                 </Link>
               ))}
           </div>
