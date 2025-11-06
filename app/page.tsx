@@ -310,11 +310,11 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Related Games Section - Only show first 6 games on homepage */}
+        {/* Related Games Section - Show first 8 games on homepage */}
         <GamesList
           title={content.games.title}
           subtitle={content.games.subtitle}
-          games={content.games.list.slice(0, 6)}
+          games={content.games.list.slice(0, 8)}
         />
 
         {/* Enhanced What is SoFlo Wheelie Section */}
