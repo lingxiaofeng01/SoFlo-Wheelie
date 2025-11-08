@@ -310,11 +310,11 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Related Games Section - Show first 8 games on homepage */}
+        {/* More Wheelie Games Section - Show only wheelie games (exclude new games) */}
         <GamesList
-          title={content.games.title}
-          subtitle={content.games.subtitle}
-          games={content.games.list.slice(0, 8)}
+          title="More Wheelie Games"
+          subtitle="Master the art of balance with our collection of motorcycle wheelie games"
+          games={content.games.list.filter((game) => !game.routePrefix || game.routePrefix === 'wheelie-games').slice(0, 8)}
         />
 
         {/* Enhanced What is SoFlo Wheelie Section */}
