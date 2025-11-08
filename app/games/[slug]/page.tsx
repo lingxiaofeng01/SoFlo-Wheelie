@@ -15,13 +15,13 @@ interface Props {
   };
 }
 
-// 定义使用 /games 路由的游戏
-const GAMES_ROUTE_SLUGS = ['crazy-animal-city', 'dancing-beat', 'cowboy-safari', 'rocket-fortress'];
+// 定义今天新增的4个游戏
+const NEW_GAMES_SLUGS = ['crazy-animal-city', 'dancing-beat', 'cowboy-safari', 'rocket-fortress'];
 
 export async function generateStaticParams() {
-  // 排除使用 /games 路由的游戏
+  // 只为新增的4个游戏生成 /games 路由
   return content.games.list
-    .filter((game) => !GAMES_ROUTE_SLUGS.includes(game.slug))
+    .filter((game) => NEW_GAMES_SLUGS.includes(game.slug))
     .map((game) => ({
       slug: game.slug,
     }));
@@ -37,16 +37,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${game.title} - Play Free Wheelie Game Online`,
+    title: `${game.title} - Play Free Online Game`,
     description: game.description,
     keywords: `${game.title}, ${game.tags.join(', ')}, online game, browser game`,
     alternates: {
-      canonical: `https://www.soflowheelie.com/wheelie-games/${game.slug}`,
+      canonical: `https://www.soflowheelie.com/games/${game.slug}`,
     },
     openGraph: {
-      title: `${game.title} - Free Wheelie Game`,
+      title: `${game.title} - Free Online Game`,
       description: game.description,
-      url: `https://www.soflowheelie.com/wheelie-games/${game.slug}`,
+      url: `https://www.soflowheelie.com/games/${game.slug}`,
       images: [
         {
           url: game.thumbnail,
@@ -77,7 +77,7 @@ export default function GamePage({ params }: Props) {
           {/* Breadcrumb Navigation */}
           <BreadcrumbNav
             items={[
-              { label: 'Wheelie Games', href: '/wheelie-games' },
+              { label: 'All Games', href: '/games' },
               { label: game.title }
             ]}
           />
@@ -173,14 +173,12 @@ export default function GamePage({ params }: Props) {
               ) : (
                 <>
                   <p>
-                    {game.title} is an exciting wheelie game that challenges your balance and timing.
-                    Navigate through challenging levels, avoid obstacles, and perform spectacular
-                    motorcycle stunts to reach the finish line.
+                    {game.title} is an exciting game that challenges your skills and reflexes.
+                    Navigate through challenging levels, avoid obstacles, and achieve the highest scores.
                   </p>
                   <p>
                     Perfect for both casual players and serious gamers, this game offers intuitive
-                    controls and progressively challenging gameplay. Master the art of wheelies and
-                    compete to achieve the highest scores.
+                    controls and progressively challenging gameplay.
                   </p>
                 </>
               )}
@@ -226,26 +224,26 @@ export default function GamePage({ params }: Props) {
               <ul className="space-y-4 text-slate-300">
                 <li className="flex items-start gap-3">
                   <span className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-500 text-white font-bold text-sm mt-0.5">1</span>
-                  <span>Use arrow keys or on-screen controls to balance your motorcycle</span>
+                  <span>Use controls to navigate and interact with the game</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="flex items-center justify-center w-6 h-6 rounded-full bg-purple-500 text-white font-bold text-sm mt-0.5">2</span>
-                  <span>Maintain your wheelie for as long as possible without crashing</span>
+                  <span>Complete objectives and overcome challenges</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="flex items-center justify-center w-6 h-6 rounded-full bg-pink-500 text-white font-bold text-sm mt-0.5">3</span>
-                  <span>Navigate through obstacles and reach the finish line</span>
+                  <span>Collect rewards and unlock new features</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="flex items-center justify-center w-6 h-6 rounded-full bg-orange-500 text-white font-bold text-sm mt-0.5">4</span>
-                  <span>Collect coins and power-ups along the way for bonus points</span>
+                  <span>Aim for high scores and master the game</span>
                 </li>
               </ul>
             )}
 
             <div className="mt-8 p-6 bg-gradient-to-r from-blue-900/40 to-purple-900/40 rounded-xl border border-blue-600/30">
               <p className="text-white font-medium text-lg">
-                💡 <strong>Pro Tip:</strong> Now, get ready to hit the streets in {game.title}, pull off wonderful stunts, and aim for your best scores. Customize your bike and enjoy every thrilling moment of the ride!
+                💡 <strong>Pro Tip:</strong> Practice makes perfect! Master the controls and develop your strategy to achieve the best results in {game.title}.
               </p>
             </div>
           </div>
@@ -313,25 +311,6 @@ export default function GamePage({ params }: Props) {
           </section>
         )}
 
-        {/* Community Impact Section */}
-        {/* @ts-ignore */}
-        {game.fullDescription?.communityImpact && (
-          <section className="mb-12">
-            <div className="bg-gradient-to-br from-green-900/30 to-teal-900/30 backdrop-blur-sm rounded-2xl p-8 sm:p-10 border border-green-700/50">
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-teal-400">
-                  {/* @ts-ignore */}
-                  {game.fullDescription.communityImpact.title}
-                </span>
-              </h2>
-              <div className="space-y-4 text-slate-300 text-base sm:text-lg leading-relaxed whitespace-pre-line">
-                {/* @ts-ignore */}
-                {game.fullDescription.communityImpact.content}
-              </div>
-            </div>
-          </section>
-        )}
-
         {/* Developer Section */}
         {/* @ts-ignore */}
         {game.fullDescription?.developer && (
@@ -349,19 +328,19 @@ export default function GamePage({ params }: Props) {
           </section>
         )}
 
-        {/* More Wheelie Games Section - Image + Text Layout */}
+        {/* More Exciting Games Section */}
         <section className="mb-12">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8 text-center">
-            More Wheelie Games
+            More Exciting Games
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {content.games.list
-              .filter((g) => g.slug !== game.slug)
+              .filter((g) => g.slug !== game.slug && NEW_GAMES_SLUGS.includes(g.slug))
               .slice(0, 3)
               .map((otherGame) => (
                 <Link
                   key={otherGame.id}
-                  href={`/wheelie-games/${otherGame.slug}`}
+                  href={`/games/${otherGame.slug}`}
                   className="group bg-slate-800/30 backdrop-blur-sm rounded-xl overflow-hidden border border-slate-700 hover:border-slate-600 transition-all hover:transform hover:scale-105"
                 >
                   {/* Game Thumbnail */}
@@ -394,7 +373,7 @@ export default function GamePage({ params }: Props) {
           </div>
           <div className="text-center mt-8">
             <Link
-              href="/wheelie-games"
+              href="/games"
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
             >
               View All Games
@@ -407,3 +386,5 @@ export default function GamePage({ params }: Props) {
     </main>
   );
 }
+
+

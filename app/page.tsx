@@ -829,20 +829,87 @@ export default function Home() {
             </div>
             <Faq items={content.faq} />
 
-            <div className="mt-12 bg-gradient-to-r from-slate-800/50 to-slate-800/30 backdrop-blur-sm rounded-xl p-8 border border-slate-700 text-center">
-              <h3 className="text-2xl font-bold text-white mb-3">Still Have Questions?</h3>
-              <p className="text-slate-300 mb-6">
-                Can't find the answer you're looking for? Check out our <Link href="/wheelie-games" className="text-blue-400 hover:text-blue-300 underline">other wheelie games</Link> or join our community for help!
-              </p>
-              <div className="flex flex-wrap justify-center gap-4">
-                <button className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all hover:scale-105">
-                  <span>💬</span>
-                  Join Discord
-                </button>
-                <button className="inline-flex items-center gap-2 bg-slate-700 hover:bg-slate-600 text-white font-semibold px-6 py-3 rounded-lg transition-all hover:scale-105">
-                  <span>📧</span>
-                  Contact Support
-                </button>
+            {/* New Games Section */}
+            <div className="mt-12">
+              <div className="text-center mb-8">
+                <h3 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400">
+                    New Games
+                  </span>
+                </h3>
+                <p className="text-slate-300 text-lg">
+                  Check out our latest additions! Fresh games added regularly for your entertainment.
+                </p>
+              </div>
+
+              {/* Games Grid */}
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                {content.games.list
+                  .slice(0, 4)
+                  .map((game) => {
+                    const routePrefix = game.routePrefix || 'wheelie-games';
+                    const gameUrl = `/${routePrefix}/${game.slug}`;
+
+                    return (
+                      <Link
+                        key={game.id}
+                        href={gameUrl}
+                        className="group bg-slate-800/30 backdrop-blur-sm rounded-xl overflow-hidden border border-slate-700 hover:border-blue-500/50 transition-all hover:transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/20"
+                      >
+                        {/* Game Thumbnail */}
+                        <div className="relative aspect-video w-full overflow-hidden bg-slate-900/50">
+                          <Image
+                            src={game.thumbnail}
+                            alt={game.title}
+                            fill
+                            className="object-cover group-hover:scale-110 transition-transform duration-300"
+                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                          />
+                          {game.isNew && (
+                            <div className="absolute top-2 right-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white text-xs font-bold px-2 py-1 rounded-md shadow-lg">
+                              NEW
+                            </div>
+                          )}
+                        </div>
+
+                        {/* Game Info */}
+                        <div className="p-4">
+                          <h4 className="text-white font-bold text-lg mb-2 group-hover:text-blue-400 transition-colors line-clamp-1">
+                            {game.title}
+                          </h4>
+                          <p className="text-slate-400 text-sm line-clamp-2 mb-3">
+                            {game.description}
+                          </p>
+
+                          {/* Tags */}
+                          <div className="flex flex-wrap gap-1">
+                            {game.tags.slice(0, 2).map((tag) => (
+                              <span
+                                key={tag}
+                                className="text-xs bg-slate-700/50 text-slate-300 px-2 py-1 rounded"
+                              >
+                                {tag}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      </Link>
+                    );
+                  })}
+              </div>
+
+              {/* View All Games Button */}
+              <div className="text-center">
+                <Link
+                  href="/games"
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold px-8 py-4 rounded-lg transition-all hover:scale-105 shadow-lg hover:shadow-xl"
+                >
+                  <span>🎮</span>
+                  View All Games
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
               </div>
             </div>
           </div>

@@ -21,6 +21,14 @@ export const metadata: Metadata = {
 };
 
 export default function WheelieGamesPage() {
+  // 定义使用 /games 路由的游戏（排除这些游戏）
+  const GAMES_ROUTE_SLUGS = ['crazy-animal-city', 'dancing-beat', 'cowboy-safari', 'rocket-fortress'];
+
+  // 只展示摩托车相关的游戏（排除新增的4个游戏）
+  const wheelieGames = content.games.list.filter(
+    (game) => !GAMES_ROUTE_SLUGS.includes(game.slug)
+  );
+
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       <ToolBar
@@ -42,15 +50,29 @@ export default function WheelieGamesPage() {
               Wheelie Games
             </span>
           </h1>
-          <p className="text-lg sm:text-xl text-slate-300 max-w-3xl">
+          <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mb-6">
             Explore our collection of exciting motorcycle and wheelie games. Test your balance, pull off epic stunts, and master the art of wheelies in these addictive browser games.
           </p>
+          <div className="flex flex-wrap gap-4 text-sm text-slate-400">
+            <div className="flex items-center gap-2">
+              <span className="text-2xl">🏍️</span>
+              <span><strong className="text-white">{wheelieGames.length}</strong> Wheelie Games</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-2xl">🆓</span>
+              <span>100% Free to Play</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-2xl">⚡</span>
+              <span>No Downloads Needed</span>
+            </div>
+          </div>
         </div>
 
         <GamesList
           title={content.games.title}
           subtitle={content.games.subtitle}
-          games={content.games.list}
+          games={wheelieGames}
         />
 
         {/* About Wheelie Games Section */}

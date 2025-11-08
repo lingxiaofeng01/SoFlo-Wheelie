@@ -91,6 +91,23 @@ export function Navigation() {
               </Link>
             )}
             <Link
+              href="/games"
+              className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
+              onClick={() => handleLinkClick('All Games')}
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <rect x="2" y="2" width="20" height="20" rx="2"/>
+                <path d="M7 2v20"/>
+                <path d="M17 2v20"/>
+                <path d="M2 12h20"/>
+                <path d="M2 7h5"/>
+                <path d="M2 17h5"/>
+                <path d="M17 17h5"/>
+                <path d="M17 7h5"/>
+              </svg>
+              <span className="text-sm font-normal">All Games</span>
+            </Link>
+            <Link
               href="/wheelie-games"
               className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
               onClick={() => handleLinkClick('Wheelie Games')}
@@ -162,6 +179,23 @@ export function Navigation() {
                   <span className="text-sm">Home</span>
                 </Link>
               )}
+              <Link
+                href="/games"
+                className="flex items-center gap-3 px-4 py-3 text-slate-400 hover:text-white hover:bg-slate-800/50 rounded-lg transition-colors"
+                onClick={() => handleLinkClick('All Games')}
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <rect x="2" y="2" width="20" height="20" rx="2"/>
+                  <path d="M7 2v20"/>
+                  <path d="M17 2v20"/>
+                  <path d="M2 12h20"/>
+                  <path d="M2 7h5"/>
+                  <path d="M2 17h5"/>
+                  <path d="M17 17h5"/>
+                  <path d="M17 7h5"/>
+                </svg>
+                <span className="text-sm">All Games</span>
+              </Link>
               <Link
                 href="/wheelie-games"
                 className="flex items-center gap-3 px-4 py-3 text-slate-400 hover:text-white hover:bg-slate-800/50 rounded-lg transition-colors"

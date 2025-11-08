@@ -20,7 +20,15 @@ xml += '<changefreq>daily</changefreq>\n';
 xml += '<priority>1</priority>\n';
 xml += '</url>\n';
 
-// 游戏列表页
+// All Games 列表页
+xml += '<url>\n';
+xml += `<loc>${baseUrl}/games</loc>\n`;
+xml += `<lastmod>${now}</lastmod>\n`;
+xml += '<changefreq>weekly</changefreq>\n';
+xml += '<priority>0.9</priority>\n';
+xml += '</url>\n';
+
+// Wheelie Games 列表页
 xml += '<url>\n';
 xml += `<loc>${baseUrl}/wheelie-games</loc>\n`;
 xml += `<lastmod>${now}</lastmod>\n`;
@@ -31,7 +39,9 @@ xml += '</url>\n';
 // 各个游戏页面
 games.forEach(game => {
   xml += '<url>\n';
-  xml += `<loc>${baseUrl}/wheelie-games/${game.slug}</loc>\n`;
+  // 根据 routePrefix 决定使用哪个路由
+  const routePrefix = game.routePrefix || 'wheelie-games';
+  xml += `<loc>${baseUrl}/${routePrefix}/${game.slug}</loc>\n`;
   xml += `<lastmod>${now}</lastmod>\n`;
   xml += '<changefreq>weekly</changefreq>\n';
   xml += '<priority>0.8</priority>\n';
@@ -63,8 +73,14 @@ if (!fs.existsSync(publicDir)) {
 
 fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), xml);
 
+// 统计游戏分布
+const gamesRouteCount = games.filter(g => g.routePrefix === 'games').length;
+const wheelieGamesCount = games.filter(g => !g.routePrefix || g.routePrefix === 'wheelie-games').length;
+
 console.log('✅ Sitemap generated successfully!');
 console.log(`📍 Location: public/sitemap.xml`);
-console.log(`📊 Total URLs: ${games.length + 4}`);
-console.log(`🎮 Game pages: ${games.length}`);
+console.log(`📊 Total URLs: ${games.length + 5}`); // 首页 + All Games + Wheelie Games + 游戏页面 + 2个法律页面
+console.log(`🎮 Total game pages: ${games.length}`);
+console.log(`   ├─ /games route: ${gamesRouteCount} games`);
+console.log(`   └─ /wheelie-games route: ${wheelieGamesCount} games`);
 

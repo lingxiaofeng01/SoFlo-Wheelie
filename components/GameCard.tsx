@@ -13,16 +13,20 @@ interface GameCardProps {
   category: string;
   tags: string[];
   isNew?: boolean;
+  routePrefix?: string;
 }
 
-export function GameCard({ id, title, slug, description, thumbnail, category, tags, isNew }: GameCardProps) {
+export function GameCard({ id, title, slug, description, thumbnail, category, tags, isNew, routePrefix }: GameCardProps) {
   const handleClick = () => {
     trackEvent('click_play', { game_id: id, game_title: title, source: 'game_card' });
   };
 
+  // 根据 routePrefix 决定使用哪个路由，默认使用 wheelie-games
+  const gameUrl = routePrefix ? `/${routePrefix}/${slug}` : `/wheelie-games/${slug}`;
+
   return (
     <Link
-      href={`/wheelie-games/${slug}`}
+      href={gameUrl}
       onClick={handleClick}
       className="group relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-sm rounded-2xl border-2 border-slate-700/50 overflow-hidden hover:border-blue-500/50 transition-all hover:transform hover:scale-[1.03] hover:shadow-2xl hover:shadow-blue-500/30 duration-300"
     >

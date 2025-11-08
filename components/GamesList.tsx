@@ -9,6 +9,7 @@ interface Game {
   category: string;
   tags: string[];
   isNew?: boolean;
+  routePrefix?: string;
 }
 
 interface GamesListProps {
