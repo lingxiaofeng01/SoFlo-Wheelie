@@ -16,7 +16,7 @@ interface Props {
 }
 
 // 定义使用 /games 路由的游戏
-const GAMES_ROUTE_SLUGS = ['crazy-animal-city', 'dancing-beat', 'cowboy-safari', 'rocket-fortress'];
+const GAMES_ROUTE_SLUGS = ['counter-craft-sniper', 'crazy-animal-city', 'dancing-beat', 'cowboy-safari', 'rocket-fortress'];
 
 export async function generateStaticParams() {
   // 排除使用 /games 路由的游戏

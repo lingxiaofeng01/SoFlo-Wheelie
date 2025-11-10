@@ -15,8 +15,8 @@ interface Props {
   };
 }
 
-// 定义今天新增的4个游戏
-const NEW_GAMES_SLUGS = ['crazy-animal-city', 'dancing-beat', 'cowboy-safari', 'rocket-fortress'];
+// 定义今天新增的5个游戏
+const NEW_GAMES_SLUGS = ['counter-craft-sniper', 'crazy-animal-city', 'dancing-beat', 'cowboy-safari', 'rocket-fortress'];
 
 export async function generateStaticParams() {
   // 只为新增的4个游戏生成 /games 路由

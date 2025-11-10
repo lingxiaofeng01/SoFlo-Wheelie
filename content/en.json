@@ -272,6 +272,116 @@
     "subtitle": "Explore more exciting motorcycle and wheelie games",
     "list": [
       {
+        "id": "counter-craft-sniper",
+        "title": "Counter Craft Sniper",
+        "slug": "counter-craft-sniper",
+        "description": "Play Counter Craft Sniper, a thrilling FPS where you defend the city from Minecraft-style zombies, creepers, and skeletons. Aim true, shoot fast, and protect humanity from chaos!",
+        "thumbnail": "https://hotgames.io/cache/data/image/game/CounterCraftSniper-f245x144.webp",
+        "iframeUrl": "https://games.builds.gamepix.com/2TCNCE/34TTAyMIepyTZezGFj2ZtT6cQ0U/index.html?sid=e4515&lang=zh&namespace=counter-craft-sniper",
+        "category": "Shooting",
+        "tags": [
+          "shooting",
+          "FPS",
+          "action",
+          "minecraft",
+          "sniper",
+          "defense",
+          "3D"
+        ],
+        "isNew": true,
+        "routePrefix": "games",
+        "fullDescription": {
+          "intro": "Counter Craft Sniper delivers an electrifying first-person shooter experience that masterfully blends tactical precision with the beloved blocky aesthetic of Minecraft-style graphics. Step into the boots of an elite sniper tasked with humanity's most critical mission: defending a besieged city from relentless waves of hostile mobs including explosive creepers, skeletal archers, and shambling zombies. This isn't just another shooting game—it's a test of nerves, accuracy, and strategic thinking where every bullet counts and every second matters. From elevated rooftops and strategic vantage points, you'll survey the urban battlefield below, identifying threats and eliminating them before they can reach innocent civilians. The game captures that perfect tension between calculated patience and explosive action, creating moments where a single well-placed headshot can mean the difference between victory and catastrophe. Whether you're a seasoned FPS veteran or new to sniper games, Counter Craft Sniper offers an accessible yet deeply satisfying experience that keeps you coming back for 'just one more mission.' The combination of familiar Minecraft-inspired visuals with intense tactical gameplay creates a unique atmosphere that's both nostalgic and fresh, appealing to players across all age groups and skill levels.",
+          "gameplay": {
+            "title": "Precision Shooting Meets Strategic Defense",
+            "content": "Counter Craft Sniper delivers a masterfully crafted gameplay experience that emphasizes precision marksmanship, tactical positioning, and quick decision-making under pressure. As an elite sniper defending the city, you'll take position on rooftops and elevated platforms that provide commanding views of the streets below. Your primary weapon is a high-powered sniper rifle capable of eliminating threats from long range, but you'll also have access to grenades for handling clustered enemies and a melee weapon for desperate close-quarters situations.\n\nThe core gameplay loop revolves around identifying threats, prioritizing targets, and executing clean eliminations before the enemy mobs can overwhelm the city's defenses. Each enemy type presents unique challenges that demand different tactical approaches. Zombies shamble slowly but appear in large numbers, requiring efficient target selection to prevent being overwhelmed. Skeletons attack from range with their bows, making them priority targets that must be eliminated quickly before they can damage you. Creepers represent the most dangerous threat—these explosive enemies can detonate if they get too close to civilians or critical infrastructure, making them urgent high-priority targets that demand immediate attention.\n\nThe game's shooting mechanics reward precision and patience. Headshots eliminate enemies instantly and conserve ammunition, while body shots require multiple hits and waste precious bullets. You'll need to account for distance, lead moving targets, and maintain steady aim under pressure. The sniper rifle's scope allows for precise long-range targeting, but zooming in reduces your peripheral awareness, creating tactical decisions about when to zoom and when to maintain situational awareness.\n\nAmmunition management adds strategic depth to every engagement. You can't simply spray bullets wildly—each shot must count. Running out of ammunition in the middle of a wave forces you to rely on less effective weapons or wait for resupply, potentially allowing enemies to break through your defenses. This resource management creates tension and rewards players who maintain accuracy and discipline.\n\nWaves of enemies increase in difficulty as you progress, introducing more dangerous mob types, larger numbers, and faster spawn rates. Early waves allow you to find your rhythm and warm up your aim, while later waves demand peak performance and flawless execution. The escalating difficulty creates natural progression that keeps you engaged and challenged throughout each session.\n\nThe game also features a variety of weapons beyond your primary sniper rifle. Grenades provide area-of-effect damage perfect for clustered groups of zombies or eliminating multiple threats simultaneously. Your melee weapon serves as a last resort for enemies that breach your position, though relying on it means your defensive position has been compromised. Learning when to use each tool in your arsenal is crucial for surviving the most intense waves.\n\nEnvironmental awareness plays a vital role in success. Your elevated position provides safety and excellent sightlines, but you must constantly scan the battlefield to identify new threats emerging from multiple directions. Some enemies may approach from unexpected angles, requiring quick target acquisition and rapid response. The urban environment features various structures and obstacles that can block your shots, demanding precise positioning and angle management.\n\nWhat makes Counter Craft Sniper truly engaging is how it balances methodical sniping with moments of intense action. You'll experience quiet tension as you line up the perfect shot, followed by explosive chaos as multiple threats converge simultaneously. This rhythm of calm precision and frantic action creates an addictive gameplay loop that keeps your heart racing and your focus sharp."
+          },
+          "howToPlay": {
+            "title": "Master the Art of Tactical Sniping",
+            "content": "Counter Craft Sniper features intuitive FPS controls designed for both keyboard-and-mouse precision and accessibility. Mastering these controls and understanding the game's mechanics is essential for defending the city effectively.",
+            "tips": [
+              {
+                "title": "Movement and Navigation",
+                "description": "Use WASD keys to move around your defensive position. While you'll primarily operate from elevated vantage points, repositioning is sometimes necessary to get better angles on enemies or avoid incoming fire from skeleton archers. Movement is smooth and responsive, allowing quick adjustments to your position. The Shift key enables running for faster repositioning when needed, though staying mobile makes accurate shooting more difficult."
+              },
+              {
+                "title": "Aiming and Shooting",
+                "description": "Left Mouse Button (LMB) fires your equipped weapon. For sniper rifle shots, take your time to line up headshots—they eliminate enemies instantly and conserve ammunition. Right Mouse Button (RMB) activates your aim/scope for precision long-range targeting. When scoped, your field of view narrows but your accuracy increases dramatically. Practice smooth mouse movements to track moving targets and lead your shots appropriately. The flashlight (also RMB) helps illuminate dark areas and spot enemies in shadows."
+              },
+              {
+                "title": "Weapon Management",
+                "description": "Press R to reload your weapon—never let your magazine run completely empty during intense moments. Use number keys 1-9 to quickly switch between available weapons. Your sniper rifle is primary for long-range precision, grenades (G key) handle groups, and melee weapons (H key) serve as emergency backup. Learning to switch weapons fluidly based on the tactical situation is crucial for survival."
+              },
+              {
+                "title": "Tactical Positioning",
+                "description": "Use C to crouch, reducing your profile and improving stability for more accurate shots. Crouching is especially useful when taking careful aim at distant targets or when skeleton archers are returning fire. Space bar allows jumping to reach elevated positions or navigate obstacles. Your high ground advantage is your greatest asset—maintain it whenever possible and only descend when absolutely necessary."
+              },
+              {
+                "title": "Combat Tactics",
+                "description": "Prioritize threats based on danger level: explosive creepers first, then ranged skeletons, then approaching zombies. Aim for headshots to maximize ammunition efficiency—a skilled sniper can eliminate an entire wave with minimal bullet waste. Use grenades strategically on clustered groups rather than single targets. Throw grenades with the G key to clear multiple enemies simultaneously, especially useful when zombies bunch together or when you're being overwhelmed."
+              },
+              {
+                "title": "Survival Strategies",
+                "description": "Constantly scan the battlefield using smooth mouse movements—threats can emerge from multiple directions. Manage your ammunition carefully by making every shot count. If you run low on sniper ammo, switch to alternative weapons rather than wasting shots. Use the environment to your advantage by positioning yourself where you have clear sightlines to multiple approach routes. Stay calm under pressure—panicked shooting wastes ammunition and allows enemies to advance unchecked."
+              }
+            ]
+          },
+          "features": [
+            "Intense first-person shooter gameplay with tactical sniper mechanics",
+            "Minecraft-inspired blocky graphics creating nostalgic yet fresh visual style",
+            "Multiple enemy types including zombies, skeletons, and explosive creepers",
+            "Variety of weapons: sniper rifles, grenades, and melee options",
+            "Strategic elevated positions providing tactical advantages",
+            "Wave-based progression with escalating difficulty",
+            "Precision shooting mechanics rewarding headshots and accuracy",
+            "Ammunition management adding strategic resource considerations",
+            "Smooth FPS controls optimized for keyboard and mouse",
+            "Dynamic urban battlefield with multiple threat approach angles",
+            "Instant browser-based play with no downloads required",
+            "Engaging sound effects and visual feedback for satisfying combat",
+            "Progressive challenge suitable for both beginners and FPS veterans",
+            "Quick session gameplay perfect for short breaks or extended play"
+          ],
+          "whyPlay": {
+            "title": "The Perfect Blend of Precision and Action",
+            "content": "Counter Craft Sniper stands out in the crowded FPS genre by offering a unique combination of tactical sniping gameplay and the beloved Minecraft aesthetic that millions of players recognize and love. This fusion creates an experience that feels both familiar and fresh, accessible yet challenging, casual yet deeply engaging.\n\nThe game's greatest strength lies in its perfect balance between methodical precision and explosive action. Unlike pure run-and-gun shooters that reward reflexes over strategy, Counter Craft Sniper demands thoughtful target prioritization, careful ammunition management, and precise marksmanship. Yet it never becomes slow or boring—waves of enemies ensure constant pressure and frequent moments of intense action where multiple threats converge simultaneously, testing your ability to stay calm and execute under pressure.\n\nThe Minecraft-inspired visual style serves multiple purposes beyond simple nostalgia. The blocky graphics create clear visual distinction between different enemy types, making threat identification quick and intuitive even during chaotic moments. The familiar aesthetic also makes the game approachable for younger players or those intimidated by hyper-realistic military shooters, while the challenging gameplay ensures it remains engaging for experienced FPS enthusiasts.\n\nAccessibility is another major advantage. Counter Craft Sniper runs entirely in your web browser with no downloads, installations, or system requirements to worry about. Within seconds of clicking play, you're defending the city from hostile mobs. This instant-play convenience makes it perfect for quick gaming sessions during breaks, yet the engaging gameplay and progressive difficulty encourage extended play sessions for those seeking deeper challenge.\n\nThe variety of enemy types keeps gameplay fresh and demands tactical flexibility. You can't use the same approach for every wave—creepers require immediate elimination before they explode, skeletons demand quick responses to prevent taking damage, and zombie hordes need efficient crowd control. This variety prevents the gameplay from becoming repetitive and ensures you're constantly adapting your strategy.\n\nWeapon variety adds another layer of tactical depth. Your sniper rifle excels at long-range precision eliminations, grenades handle clustered groups, and melee weapons provide emergency backup. Learning when to use each tool and managing your limited ammunition creates engaging resource management decisions that elevate the experience beyond simple shooting.\n\nThe game also offers excellent replay value through its wave-based structure and escalating difficulty. Each session presents opportunities to improve your accuracy, refine your target prioritization, and push further into higher waves. The 'just one more wave' quality is strong—you'll constantly feel that your next attempt could be the one where everything clicks and you achieve a new personal best.\n\nPerhaps most importantly, Counter Craft Sniper delivers genuine satisfaction through skill-based gameplay. Your success depends entirely on your marksmanship, decision-making, and tactical awareness. There are no pay-to-win mechanics, no artificial progression gates, no energy systems—just pure skill-based FPS action where improvement comes from practice and mastery. The feeling of perfectly executing a difficult wave, landing consecutive headshots, or clutching victory with your last few bullets creates moments of genuine accomplishment that keep you coming back.\n\nWhether you're a Minecraft fan curious about FPS gameplay, a shooter enthusiast seeking something different, or simply someone looking for an engaging browser game, Counter Craft Sniper delivers. It respects your time with instant accessibility, rewards your skill with satisfying gameplay, and provides endless opportunities for improvement and mastery."
+          },
+          "tips": {
+            "title": "Elite Sniper Tactics for Maximum Efficiency",
+            "items": [
+              "Always prioritize explosive creepers—they pose the greatest immediate threat to civilians and infrastructure",
+              "Aim for headshots consistently to conserve ammunition and eliminate threats with single shots",
+              "Keep moving between shots to avoid becoming an easy target for skeleton archers",
+              "Use grenades on clustered groups of three or more enemies for maximum efficiency",
+              "Reload during quiet moments between waves rather than in the middle of intense action",
+              "Scan the entire battlefield regularly—threats can approach from multiple directions simultaneously",
+              "Learn enemy spawn patterns to anticipate where threats will emerge next",
+              "Maintain high ground advantage whenever possible—elevation provides better sightlines and safety",
+              "Don't waste sniper ammunition on close targets—switch to appropriate weapons for each range",
+              "Practice leading moving targets—shoot where enemies will be, not where they are",
+              "Stay calm when overwhelmed—panicked shooting wastes ammunition and reduces accuracy",
+              "Use the environment for cover when skeleton archers are firing at your position",
+              "Count your remaining ammunition mentally to avoid being caught empty during critical moments",
+              "Take brief pauses between waves to steady your aim and prepare mentally for the next assault",
+              "Focus on accuracy over speed—one precise shot is better than three missed attempts",
+              "Learn the effective range of each weapon and engage enemies at optimal distances",
+              "Use crouch for stability when taking difficult long-range shots",
+              "Don't let zombies get too close—eliminate them at range before they become melee threats",
+              "Save melee weapons as absolute last resort—if you're using them, your position is compromised",
+              "Practice smooth mouse control for tracking moving targets without overcompensating"
+            ]
+          },
+          "challenging": {
+            "title": "Progressive Difficulty That Rewards Mastery",
+            "content": "Counter Craft Sniper achieves that perfect difficulty balance where the game feels accessible to newcomers while offering substantial challenge for experienced players. The early waves serve as an effective tutorial, introducing enemy types gradually and allowing you to familiarize yourself with controls, weapons, and basic tactics without overwhelming pressure.\n\nAs you progress through waves, the difficulty escalates naturally and noticeably. Enemy numbers increase, spawn rates accelerate, and more dangerous mob types appear with greater frequency. What started as methodical target practice evolves into intense tactical combat where split-second decisions and flawless execution determine success or failure. This progression creates a satisfying sense of rising stakes and increasing challenge.\n\nThe game's difficulty is demanding but never unfair. Every failure can be traced to specific mistakes—missed shots, poor target prioritization, ammunition waste, or positioning errors. This clarity makes improvement tangible and achievable. You can identify exactly what went wrong and focus on correcting those specific issues in your next attempt.\n\nWhat makes the challenge particularly engaging is how it rewards multiple skills simultaneously. Pure shooting accuracy is important, but so is tactical awareness, resource management, and decision-making under pressure. A player with perfect aim but poor target prioritization will struggle just as much as someone with good tactics but inconsistent marksmanship. This multi-dimensional skill requirement creates depth and ensures that improvement comes from developing well-rounded capabilities.\n\nThe ammunition limitation adds strategic tension that elevates the experience beyond simple shooting. You can't afford to miss frequently or waste bullets on body shots when headshots are possible. This resource constraint forces discipline and precision, making every successful shot feel earned and every wasted bullet feel costly. Managing your ammunition while under pressure from multiple threats creates genuine tension and excitement.\n\nBoss waves and special enemy combinations introduce additional challenge spikes that test everything you've learned. These moments demand peak performance and often require perfect execution to overcome. Successfully clearing a particularly difficult wave provides immense satisfaction and a genuine sense of accomplishment.\n\nThe game also offers natural difficulty scaling based on how far you progress. Casual players can enjoy the early waves and feel accomplished reaching wave 10, while dedicated players can push toward wave 20, 30, or beyond, constantly testing their limits. This flexible difficulty ceiling ensures the game remains challenging regardless of your skill level.\n\nPerhaps most importantly, Counter Craft Sniper makes failure feel like a learning opportunity rather than punishment. Each attempt teaches you more about enemy patterns, improves your aim, and refines your tactical decision-making. The 'just one more try' quality is strong because you can always see how you could have performed better, and you're eager to prove you've learned from your mistakes. This creates an addictive improvement loop where practice genuinely makes you better, and that improvement is immediately noticeable in your performance."
+          },
+          "developer": {
+            "title": "About Counter Craft Sniper",
+            "content": "Counter Craft Sniper is developed by GamePix and represents their expertise in creating engaging, accessible browser-based games that combine familiar elements in fresh ways. The game showcases their talent for balancing accessibility with depth, creating experiences that welcome newcomers while offering substantial challenge for dedicated players. Running smoothly in any modern web browser with no downloads or installations required, Counter Craft Sniper exemplifies the best of instant-play gaming—jump in, grab your rifle, and defend humanity from the blocky mob invasion threatening the city."
+          }
+        }
+      },
+      {
         "id": "crazy-animal-city",
         "title": "Crazy Animal City",
         "slug": "crazy-animal-city",

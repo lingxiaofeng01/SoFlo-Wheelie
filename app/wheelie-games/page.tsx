@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function WheelieGamesPage() {
   // 定义使用 /games 路由的游戏（排除这些游戏）
-  const GAMES_ROUTE_SLUGS = ['crazy-animal-city', 'dancing-beat', 'cowboy-safari', 'rocket-fortress'];
+  const GAMES_ROUTE_SLUGS = ['counter-craft-sniper', 'crazy-animal-city', 'dancing-beat', 'cowboy-safari', 'rocket-fortress'];
 
   // 只展示摩托车相关的游戏（排除新增的4个游戏）
   const wheelieGames = content.games.list.filter(
