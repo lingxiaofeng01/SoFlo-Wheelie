@@ -845,7 +845,7 @@ export default function Home() {
               {/* Games Grid */}
               <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
                 {content.games.list
-                  .slice(0, 4)
+                  .slice(0, 8)
                   .map((game) => {
                     const routePrefix = game.routePrefix || 'wheelie-games';
                     const gameUrl = `/${routePrefix}/${game.slug}`;
