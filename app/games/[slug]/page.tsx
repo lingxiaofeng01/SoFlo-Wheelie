@@ -16,7 +16,7 @@ interface Props {
 }
 
 // 定义今天新增的游戏
-const NEW_GAMES_SLUGS = ['chicken-jockey-clicker', 'hockey-random', 'bottle-jump', 'scary-wheels', 'wacky-nursery', 'counter-craft-sniper', 'crazy-animal-city', 'dancing-beat', 'cowboy-safari', 'rocket-fortress'];
+const NEW_GAMES_SLUGS = ['fortzone-battle-royale', 'blocky-rider', 'stunt-simulator', 'steal-brainrot-duel', 'chicken-jockey-clicker', 'hockey-random', 'bottle-jump', 'scary-wheels', 'wacky-nursery', 'counter-craft-sniper', 'crazy-animal-city', 'dancing-beat', 'cowboy-safari', 'rocket-fortress', 'brother-hais-pho-restaurant'];
 
 export async function generateStaticParams() {
   // 只为新增的4个游戏生成 /games 路由
